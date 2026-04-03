@@ -1,0 +1,16 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/user/Documents/Unreal Projects/MyProject/Content/Blueprints/NewMap.umap",
+				"C:/Users/user/Documents/Unreal Projects/MyProject/Content/Blueprints/MincraftMap.umap",
+				"C:/Users/user/Documents/Unreal Projects/MyProject/Content/Blueprints/MinecraftMap.umap",
+				"C:/Users/user/Documents/Unreal Projects/MyProject/Content/Blueprints/Block/ISM/BP_WorldManager.uasset",
+				"C:/Users/user/Documents/Unreal Projects/MyProject/Content/Blueprints/BP_MincraftGameMode.uasset"
+			]
+		}
+	]
+}
