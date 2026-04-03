@@ -9,7 +9,15 @@
 				"C:/Users/user/Documents/Unreal Projects/MyProject/Content/Blueprints/MincraftMap.umap",
 				"C:/Users/user/Documents/Unreal Projects/MyProject/Content/Blueprints/MinecraftMap.umap",
 				"C:/Users/user/Documents/Unreal Projects/MyProject/Content/Blueprints/Block/ISM/BP_WorldManager.uasset",
-				"C:/Users/user/Documents/Unreal Projects/MyProject/Content/Blueprints/BP_MincraftGameMode.uasset"
+				"C:/Users/user/Documents/Unreal Projects/MyProject/Content/Blueprints/BP_MincraftGameMode.uasset",
+				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/BP_MincraftGameMode.uasset",
+				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/Textures/Lobby.uasset",
+				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/WBP_Looby.uasset",
+				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/Block/ISM/BP_WorldManager.uasset",
+				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/looding.uasset",
+				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/Textures/looding.uasset",
+				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/BP_Loading.uasset",
+				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/MinecraftMap.umap"
 			]
 		}
 	]
