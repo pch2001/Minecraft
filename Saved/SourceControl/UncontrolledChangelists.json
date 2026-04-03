@@ -17,7 +17,17 @@
 				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/looding.uasset",
 				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/Textures/looding.uasset",
 				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/BP_Loading.uasset",
-				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/MinecraftMap.umap"
+				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/MinecraftMap.umap",
+				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/Block/BlockData/DT_BlockCSV.uasset",
+				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/BP_MinecraftSteve.uasset",
+				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/Block/Materials/M_Ovelay.uasset",
+				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/Block/Materials/M_Oveelay.uasset",
+				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/Block/Materials/M_Overlay.uasset",
+				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/Block/Materials/M_SurfaceDefault.uasset",
+				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/Block/Textures/Crack2.uasset",
+				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/Block/Materials/MI_Overlay.uasset",
+				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/Block/Textures/Crack3.uasset",
+				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/Block/Textures/Crack4.uasset"
 			]
 		}
 	]
