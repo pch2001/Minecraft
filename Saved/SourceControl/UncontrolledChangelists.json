@@ -17,7 +17,10 @@
 				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/MiniBlock/BP_MiniWood1.uasset",
 				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/Block/BlockData/DT_BlockCSV.uasset",
 				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/MiniBlock/BP_MiniBox.uasset",
-				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/Block/ISM/BP_WorldManager.uasset"
+				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/Block/ISM/BP_WorldManager.uasset",
+				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/WBP_Box.uasset",
+				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/BP_MinecraftSteve.uasset",
+				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/WBP_BoxInventory.uasset"
 			]
 		}
 	]

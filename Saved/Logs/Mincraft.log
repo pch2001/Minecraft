@@ -1945,3 +1945,564 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.04.06-12.07.59:581][530]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1037.067139
 [2026.04.06-12.08.00:580][533]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.04.06-12.08.00:580][533]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1037.733276, Update Interval: 336.369507
+[2026.04.06-12.09.51:107][403]LogSlate: Window 'Pick Parent Class' being destroyed
+[2026.04.06-12.09.51:115][403]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2026.04.06-12.09.51:125][403]LogContentBrowser: Creating deferred item: NewBlueprint
+[2026.04.06-12.09.51:152][404]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2026.04.06-12.09.57:608][783]LogContentBrowser: Attempting asset rename: NewBlueprint -> WBP_Box
+[2026.04.06-12.09.57:628][783]LogContentBrowser: End creating deferred item NewBlueprint
+[2026.04.06-12.09.58:983][855]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/WBP_Box.WBP_Box
+[2026.04.06-12.09.58:984][855]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_25
+[2026.04.06-12.09.58:992][855]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_26
+[2026.04.06-12.09.58:999][855]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2026.04.06-12.09.59:580][855]LogSlate: Took 0.000105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2026.04.06-12.10.00:986][934]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-12.10.01:108][934]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/WBP_Box] ([2] browsable assets)...
+[2026.04.06-12.10.01:113][934]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/WBP_Box.WBP_Box]
+[2026.04.06-12.10.01:113][934]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/WBP_Box]
+[2026.04.06-12.10.01:113][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/WBP_Box" FILE="../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/WBP_Box.uasset" SILENT=true
+[2026.04.06-12.10.01:119][934]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/WBP_Box
+[2026.04.06-12.10.01:119][934]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/WBP_BoxB0413E9C46061E467AD8EE9D3F1A52F0.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/WBP_Box.uasset'
+[2026.04.06-12.10.01:142][934]LogFileHelpers: InternalPromptForCheckoutAndSave took 155.550 ms (total: 1.83 sec)
+[2026.04.06-12.10.01:268][934]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-12.10.01:268][934]LogContentValidation: Enabled validators:
+[2026.04.06-12.10.01:268][934]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-12.10.01:268][934]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-12.10.01:268][934]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-12.10.01:268][934]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-12.10.01:268][934]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-12.10.01:268][934]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-12.10.01:268][934]AssetCheck: /Game/Blueprints/UI/WBP_Box Validating asset
+[2026.04.06-12.10.01:311][934]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/SourceControl/UncontrolledChangelists.json
+[2026.04.06-12.10.17:150][823]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_MinecraftSteve.BP_MinecraftSteve
+[2026.04.06-12.10.17:151][823]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_28
+[2026.04.06-12.10.18:132][826]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_29
+[2026.04.06-12.12.02:069][647]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2026.04.06-12.12.02:532][648]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-12.12.02:612][648]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_MinecraftSteve] ([2] browsable assets)...
+[2026.04.06-12.12.02:622][648]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_MinecraftSteve.BP_MinecraftSteve]
+[2026.04.06-12.12.02:622][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_MinecraftSteve]
+[2026.04.06-12.12.02:622][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MinecraftSteve" FILE="../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/BP_MinecraftSteve.uasset" SILENT=true
+[2026.04.06-12.12.02:700][648]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_MinecraftSteve
+[2026.04.06-12.12.02:701][648]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/BP_MinecraftSteve416884BC4B1B7FEB350D5792F02E7C87.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/BP_MinecraftSteve.uasset'
+[2026.04.06-12.12.02:716][648]LogFileHelpers: InternalPromptForCheckoutAndSave took 183.918 ms (total: 2.01 sec)
+[2026.04.06-12.12.02:805][648]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-12.12.02:805][648]LogContentValidation: Enabled validators:
+[2026.04.06-12.12.02:805][648]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-12.12.02:805][648]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-12.12.02:805][648]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-12.12.02:805][648]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-12.12.02:805][648]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-12.12.02:805][648]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-12.12.02:806][648]AssetCheck: /Game/Blueprints/BP_MinecraftSteve Validating asset
+[2026.04.06-12.12.02:842][648]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/SourceControl/UncontrolledChangelists.json
+[2026.04.06-12.12.20:424][273]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-12.12.20:535][273]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_MinecraftSteve] ([2] browsable assets)...
+[2026.04.06-12.12.20:535][273]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_MinecraftSteve]
+[2026.04.06-12.12.20:535][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MinecraftSteve" FILE="../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/BP_MinecraftSteve.uasset" SILENT=true
+[2026.04.06-12.12.20:622][273]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_MinecraftSteve
+[2026.04.06-12.12.20:624][273]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/BP_MinecraftSteveCDB5A4D54D524C102A14E48CD1F5E964.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/BP_MinecraftSteve.uasset'
+[2026.04.06-12.12.20:637][273]LogFileHelpers: InternalPromptForCheckoutAndSave took 212.816 ms (total: 2.23 sec)
+[2026.04.06-12.12.20:735][273]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-12.12.20:735][273]LogContentValidation: Enabled validators:
+[2026.04.06-12.12.20:735][273]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-12.12.20:735][273]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-12.12.20:735][273]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-12.12.20:735][273]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-12.12.20:735][273]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-12.12.20:735][273]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-12.12.20:736][273]AssetCheck: /Game/Blueprints/BP_MinecraftSteve Validating asset
+[2026.04.06-12.13.29:226][802]LogSlate: Window 'Editor Preferences' being destroyed
+[2026.04.06-12.13.29:246][802]LogSlate: Window 'Editor Preferences' being destroyed
+[2026.04.06-12.13.49:320][681]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1386.803101
+[2026.04.06-12.13.49:601][694]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.06-12.13.49:601][694]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1387.060791, Update Interval: 357.899719
+[2026.04.06-12.14.13:021][726]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2026.04.06-12.14.13:420][727]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-12.14.13:500][727]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_MinecraftSteve] ([2] browsable assets)...
+[2026.04.06-12.14.13:507][727]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_MinecraftSteve.BP_MinecraftSteve]
+[2026.04.06-12.14.13:507][727]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_MinecraftSteve]
+[2026.04.06-12.14.13:507][727]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MinecraftSteve" FILE="../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/BP_MinecraftSteve.uasset" SILENT=true
+[2026.04.06-12.14.13:569][727]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_MinecraftSteve
+[2026.04.06-12.14.13:569][727]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/BP_MinecraftSteveA8BF32AD49486D68DCBF378BB66E64BE.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/BP_MinecraftSteve.uasset'
+[2026.04.06-12.14.13:581][727]LogFileHelpers: InternalPromptForCheckoutAndSave took 160.051 ms (total: 2.39 sec)
+[2026.04.06-12.14.13:654][727]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-12.14.13:654][727]LogContentValidation: Enabled validators:
+[2026.04.06-12.14.13:654][727]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-12.14.13:654][727]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-12.14.13:654][727]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-12.14.13:654][727]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-12.14.13:654][727]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-12.14.13:654][727]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-12.14.13:655][727]AssetCheck: /Game/Blueprints/BP_MinecraftSteve Validating asset
+[2026.04.06-12.14.57:840][695]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2026.04.06-12.14.58:275][702]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-12.14.58:351][702]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/WBP_Box] ([2] browsable assets)...
+[2026.04.06-12.14.58:356][702]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/WBP_Box.WBP_Box]
+[2026.04.06-12.14.58:357][702]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/WBP_Box]
+[2026.04.06-12.14.58:357][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/WBP_Box" FILE="../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/WBP_Box.uasset" SILENT=true
+[2026.04.06-12.14.58:361][702]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/WBP_Box
+[2026.04.06-12.14.58:361][702]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/WBP_Box2668A1744635E5F1E3310DB035132958.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/WBP_Box.uasset'
+[2026.04.06-12.14.58:375][702]LogFileHelpers: InternalPromptForCheckoutAndSave took 98.705 ms (total: 2.48 sec)
+[2026.04.06-12.14.58:459][702]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-12.14.58:459][702]LogContentValidation: Enabled validators:
+[2026.04.06-12.14.58:459][702]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-12.14.58:459][702]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-12.14.58:459][702]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-12.14.58:459][702]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-12.14.58:459][702]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-12.14.58:459][702]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-12.14.58:460][702]AssetCheck: /Game/Blueprints/UI/WBP_Box Validating asset
+[2026.04.06-12.15.00:139][787]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.06-12.15.00:148][787]LogContentBundle: [MinecraftMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.04.06-12.15.00:148][787]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' started...
+[2026.04.06-12.15.00:149][787]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' took 672 us (total: 3.966 ms)
+[2026.04.06-12.15.00:149][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.06-12.15.00:149][787]LogPlayLevel: Creating play world package: /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-12.15.00:152][787]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.04.06-12.15.00:152][787]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 465 us (total: 1.615 ms)
+[2026.04.06-12.15.00:152][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003531s)
+[2026.04.06-12.15.00:152][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/MinecraftMap.MinecraftMap to /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap (0.003590s)
+[2026.04.06-12.15.00:228][787]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2026.04.06-12.15.00:240][787]LogChaosDD: Creating Chaos Debug Draw Scene for world MinecraftMap
+[2026.04.06-12.15.00:242][787]LogWorldPartition: ULevel::OnLevelLoaded(MinecraftMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.06-12.15.00:242][787]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.06-12.15.00:242][787]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.06-12.15.00:242][787]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.06-12.15.00:242][787]LogWorldPartition: Display: WorldPartition initialize took 560 us (total: 24.561 ms)
+[2026.04.06-12.15.00:242][787]LogPlayLevel: PIE: World Init took: (0.002567s)
+[2026.04.06-12.15.00:244][787]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2026.04.06-12.15.00:244][787]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.06-12.15.00:244][787]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.06-12.15.00:244][787]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.06-12.15.00:244][787]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.06-12.15.00:244][787]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.06-12.15.00:244][787]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.06-12.15.00:244][787]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.06-12.15.00:244][787]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.06-12.15.00:244][787]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.06-12.15.00:244][787]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.06-12.15.00:244][787]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.06-12.15.00:247][787]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.06-12.15.00:258][787]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(AirPods)
+[2026.04.06-12.15.00:258][787]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.06-12.15.00:258][787]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.06-12.15.00:258][787]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.06-12.15.00:258][787]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2026.04.06-12.15.00:258][787]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2026.04.06-12.15.00:262][787]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2026.04.06-12.15.00:262][787]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2026.04.06-12.15.00:262][787]LogInit: FAudioDevice initialized with ID 7.
+[2026.04.06-12.15.00:262][787]LogAudio: Display: Audio Device (ID: 7) registered with world 'MinecraftMap'.
+[2026.04.06-12.15.00:262][787]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2026.04.06-12.15.00:268][787]LogLoad: Game class is 'BP_MincraftGameMode_C'
+[2026.04.06-12.15.00:269][787]LogWorld: Bringing World /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap up for play (max tick rate 60) at 2026.04.06-21.15.00
+[2026.04.06-12.15.00:269][787]LogWorld: Bringing up level for play took: 0.000621
+[2026.04.06-12.15.00:271][787]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2026.04.06-12.15.00:275][787]LogStreaming: Display: FlushAsyncLoading(608): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.06-12.15.00:277][787]PIE: Server logged in
+[2026.04.06-12.15.00:279][787]PIE: Play in editor total start time 0.132 seconds.
+[2026.04.06-12.15.00:345][788]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.06-12.15.25:886][261]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-12.15.25:886][261]LogWorld: BeginTearingDown for /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-12.15.25:887][261]LogWorld: UWorld::CleanupWorld for MinecraftMap, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.15.26:025][261]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.15.26:025][261]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap
+[2026.04.06-12.15.26:029][261]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.06-12.15.26:037][261]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.15.26:195][261]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.06-12.15.26:196][261]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2026.04.06-12.15.26:196][261]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=4
+[2026.04.06-12.15.26:200][261]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=2
+[2026.04.06-12.15.26:209][261]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-12.15.26:777][261]LogUObjectHash: Compacting FUObjectHashTables data took  13.30ms
+[2026.04.06-12.15.26:826][262]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2026.04.06-12.15.35:299][640]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2026.04.06-12.15.35:320][640]LogSlate: Window 'Color Picker' being destroyed
+[2026.04.06-12.15.35:683][646]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-12.15.35:761][646]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/WBP_Box] ([2] browsable assets)...
+[2026.04.06-12.15.35:764][646]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/WBP_Box.WBP_Box]
+[2026.04.06-12.15.35:764][646]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/WBP_Box]
+[2026.04.06-12.15.35:764][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/WBP_Box" FILE="../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/WBP_Box.uasset" SILENT=true
+[2026.04.06-12.15.35:769][646]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/WBP_Box
+[2026.04.06-12.15.35:769][646]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/WBP_BoxBC7A338244211EE454B63FB0A3D398A8.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/WBP_Box.uasset'
+[2026.04.06-12.15.35:783][646]LogFileHelpers: InternalPromptForCheckoutAndSave took 101.341 ms (total: 2.59 sec)
+[2026.04.06-12.15.35:867][646]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-12.15.35:867][646]LogContentValidation: Enabled validators:
+[2026.04.06-12.15.35:867][646]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-12.15.35:867][646]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-12.15.35:867][646]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-12.15.35:867][646]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-12.15.35:867][646]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-12.15.35:867][646]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-12.15.35:867][646]AssetCheck: /Game/Blueprints/UI/WBP_Box Validating asset
+[2026.04.06-12.15.58:440][606]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2026.04.06-12.15.58:440][606]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2026.04.06-12.15.58:444][606]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2026.04.06-12.15.58:522][607]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2026.04.06-12.15.58:536][607]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2026.04.06-12.15.58:615][608]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2026.04.06-12.15.58:693][609]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2026.04.06-12.15.58:714][609]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2026.04.06-12.15.58:793][610]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2026.04.06-12.15.58:959][612]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2026.04.06-12.15.59:034][613]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2026.04.06-12.15.59:048][613]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2026.04.06-12.15.59:130][614]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2026.04.06-12.15.59:210][615]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2026.04.06-12.15.59:222][615]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2026.04.06-12.15.59:302][616]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2026.04.06-12.15.59:370][617]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2026.04.06-12.16.04:205][784]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2026.04.06-12.16.04:442][785]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-12.16.04:541][785]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/WBP_Box] ([2] browsable assets)...
+[2026.04.06-12.16.04:546][785]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/WBP_Box.WBP_Box]
+[2026.04.06-12.16.04:546][785]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/WBP_Box]
+[2026.04.06-12.16.04:546][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/WBP_Box" FILE="../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/WBP_Box.uasset" SILENT=true
+[2026.04.06-12.16.04:550][785]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/WBP_Box
+[2026.04.06-12.16.04:551][785]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/WBP_Box2EA5C6E540E9BCE5CB4CD8A193D0D0A7.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/WBP_Box.uasset'
+[2026.04.06-12.16.04:565][785]LogFileHelpers: InternalPromptForCheckoutAndSave took 122.545 ms (total: 2.71 sec)
+[2026.04.06-12.16.04:677][785]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-12.16.04:677][785]LogContentValidation: Enabled validators:
+[2026.04.06-12.16.04:677][785]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-12.16.04:677][785]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-12.16.04:677][785]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-12.16.04:677][785]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-12.16.04:677][785]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-12.16.04:677][785]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-12.16.04:679][785]AssetCheck: /Game/Blueprints/UI/WBP_Box Validating asset
+[2026.04.06-12.16.06:403][868]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.06-12.16.06:409][868]LogContentBundle: [MinecraftMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.04.06-12.16.06:409][868]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' started...
+[2026.04.06-12.16.06:410][868]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' took 508 us (total: 4.475 ms)
+[2026.04.06-12.16.06:410][868]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.06-12.16.06:410][868]LogPlayLevel: Creating play world package: /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-12.16.06:412][868]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.04.06-12.16.06:412][868]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 447 us (total: 2.063 ms)
+[2026.04.06-12.16.06:414][868]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002859s)
+[2026.04.06-12.16.06:414][868]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/MinecraftMap.MinecraftMap to /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap (0.002899s)
+[2026.04.06-12.16.06:541][868]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2026.04.06-12.16.06:547][868]LogChaosDD: Creating Chaos Debug Draw Scene for world MinecraftMap
+[2026.04.06-12.16.06:549][868]LogWorldPartition: ULevel::OnLevelLoaded(MinecraftMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.06-12.16.06:549][868]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.06-12.16.06:549][868]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.06-12.16.06:549][868]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.06-12.16.06:550][868]LogWorldPartition: Display: WorldPartition initialize took 657 us (total: 25.219 ms)
+[2026.04.06-12.16.06:550][868]LogPlayLevel: PIE: World Init took: (0.002540s)
+[2026.04.06-12.16.06:551][868]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2026.04.06-12.16.06:551][868]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.06-12.16.06:551][868]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.06-12.16.06:551][868]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.06-12.16.06:551][868]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.06-12.16.06:551][868]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.06-12.16.06:551][868]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.06-12.16.06:551][868]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.06-12.16.06:551][868]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.06-12.16.06:551][868]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.06-12.16.06:551][868]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.06-12.16.06:551][868]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.06-12.16.06:555][868]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.06-12.16.06:564][868]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(AirPods)
+[2026.04.06-12.16.06:565][868]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.06-12.16.06:565][868]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.06-12.16.06:565][868]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.06-12.16.06:565][868]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2026.04.06-12.16.06:565][868]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2026.04.06-12.16.06:569][868]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2026.04.06-12.16.06:569][868]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2026.04.06-12.16.06:569][868]LogInit: FAudioDevice initialized with ID 8.
+[2026.04.06-12.16.06:569][868]LogAudio: Display: Audio Device (ID: 8) registered with world 'MinecraftMap'.
+[2026.04.06-12.16.06:569][868]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2026.04.06-12.16.06:573][868]LogLoad: Game class is 'BP_MincraftGameMode_C'
+[2026.04.06-12.16.06:575][868]LogWorld: Bringing World /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap up for play (max tick rate 60) at 2026.04.06-21.16.06
+[2026.04.06-12.16.06:575][868]LogWorld: Bringing up level for play took: 0.000538
+[2026.04.06-12.16.06:578][868]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2026.04.06-12.16.06:582][868]LogStreaming: Display: FlushAsyncLoading(609): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.06-12.16.06:584][868]PIE: Server logged in
+[2026.04.06-12.16.06:587][868]PIE: Play in editor total start time 0.178 seconds.
+[2026.04.06-12.16.06:652][869]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.06-12.16.25:966][203]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-12.16.25:966][203]LogWorld: BeginTearingDown for /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-12.16.25:966][203]LogWorld: UWorld::CleanupWorld for MinecraftMap, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.16.26:057][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.16.26:057][203]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap
+[2026.04.06-12.16.26:062][203]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.06-12.16.26:068][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.16.26:103][203]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.06-12.16.26:104][203]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2026.04.06-12.16.26:104][203]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=4
+[2026.04.06-12.16.26:108][203]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=2
+[2026.04.06-12.16.26:114][203]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-12.16.26:617][203]LogUObjectHash: Compacting FUObjectHashTables data took   5.59ms
+[2026.04.06-12.16.26:656][204]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2026.04.06-12.16.41:044][820]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-12.16.41:132][820]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/WBP_Box] ([2] browsable assets)...
+[2026.04.06-12.16.41:134][820]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/WBP_Box.WBP_Box]
+[2026.04.06-12.16.41:134][820]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/WBP_Box]
+[2026.04.06-12.16.41:134][820]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/WBP_Box" FILE="../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/WBP_Box.uasset" SILENT=true
+[2026.04.06-12.16.41:138][820]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/WBP_Box
+[2026.04.06-12.16.41:138][820]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/WBP_Box58448BC741E4B3C9594FD582465EC3D3.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/WBP_Box.uasset'
+[2026.04.06-12.16.41:149][820]LogFileHelpers: InternalPromptForCheckoutAndSave took 104.402 ms (total: 2.81 sec)
+[2026.04.06-12.16.41:237][820]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-12.16.41:237][820]LogContentValidation: Enabled validators:
+[2026.04.06-12.16.41:237][820]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-12.16.41:237][820]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-12.16.41:237][820]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-12.16.41:238][820]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-12.16.41:238][820]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-12.16.41:238][820]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-12.16.41:238][820]AssetCheck: /Game/Blueprints/UI/WBP_Box Validating asset
+[2026.04.06-12.16.59:269][ 61]LogSlate: Window 'Pick Parent Class' being destroyed
+[2026.04.06-12.16.59:280][ 61]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2026.04.06-12.16.59:322][ 61]LogContentBrowser: Creating deferred item: NewBlueprint
+[2026.04.06-12.16.59:356][ 62]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2026.04.06-12.17.05:927][398]LogContentBrowser: Attempting asset rename: NewBlueprint -> WBP_BoxInventory
+[2026.04.06-12.17.05:935][398]LogContentBrowser: End creating deferred item NewBlueprint
+[2026.04.06-12.17.07:882][498]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/WBP_BoxInventory.WBP_BoxInventory
+[2026.04.06-12.17.07:883][498]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_37
+[2026.04.06-12.17.07:891][498]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_38
+[2026.04.06-12.17.09:807][568]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-12.17.09:890][568]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/WBP_BoxInventory] ([2] browsable assets)...
+[2026.04.06-12.17.09:894][568]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/WBP_BoxInventory.WBP_BoxInventory]
+[2026.04.06-12.17.09:894][568]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/WBP_BoxInventory]
+[2026.04.06-12.17.09:894][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/WBP_BoxInventory" FILE="../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/WBP_BoxInventory.uasset" SILENT=true
+[2026.04.06-12.17.09:897][568]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/WBP_BoxInventory
+[2026.04.06-12.17.09:897][568]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/WBP_BoxInventory298F731F4B917C382FD6C28261B0FAD2.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/WBP_BoxInventory.uasset'
+[2026.04.06-12.17.09:912][568]LogFileHelpers: InternalPromptForCheckoutAndSave took 105.080 ms (total: 2.92 sec)
+[2026.04.06-12.17.09:997][568]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-12.17.09:997][568]LogContentValidation: Enabled validators:
+[2026.04.06-12.17.09:997][568]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-12.17.09:997][568]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-12.17.09:997][568]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-12.17.09:997][568]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-12.17.09:997][568]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-12.17.09:997][568]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-12.17.09:998][568]AssetCheck: /Game/Blueprints/UI/WBP_BoxInventory Validating asset
+[2026.04.06-12.17.10:025][568]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/SourceControl/UncontrolledChangelists.json
+[2026.04.06-12.17.20:957][101]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-12.17.21:055][101]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/UI/WBP_BoxInventory] ([2] browsable assets)...
+[2026.04.06-12.17.21:055][101]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/WBP_BoxInventory]
+[2026.04.06-12.17.21:055][101]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/WBP_BoxInventory" FILE="../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/WBP_BoxInventory.uasset" SILENT=true
+[2026.04.06-12.17.21:058][101]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/WBP_BoxInventory
+[2026.04.06-12.17.21:059][101]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/WBP_BoxInventory93805A3D49D85BAD3C05199AC10DFACF.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/WBP_BoxInventory.uasset'
+[2026.04.06-12.17.21:069][101]LogFileHelpers: InternalPromptForCheckoutAndSave took 112.624 ms (total: 3.03 sec)
+[2026.04.06-12.17.21:183][101]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-12.17.21:183][101]LogContentValidation: Enabled validators:
+[2026.04.06-12.17.21:183][101]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-12.17.21:183][101]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-12.17.21:183][101]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-12.17.21:183][101]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-12.17.21:183][101]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-12.17.21:183][101]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-12.17.21:184][101]AssetCheck: /Game/Blueprints/UI/WBP_BoxInventory Validating asset
+[2026.04.06-12.17.29:903][573]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2026.04.06-12.17.30:146][577]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-12.17.30:229][577]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/WBP_BoxInventory] ([2] browsable assets)...
+[2026.04.06-12.17.30:232][577]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/WBP_BoxInventory.WBP_BoxInventory]
+[2026.04.06-12.17.30:232][577]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/WBP_BoxInventory]
+[2026.04.06-12.17.30:232][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/WBP_BoxInventory" FILE="../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/WBP_BoxInventory.uasset" SILENT=true
+[2026.04.06-12.17.30:236][577]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/WBP_BoxInventory
+[2026.04.06-12.17.30:236][577]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/WBP_BoxInventoryE94E94B74895DA16CFC29A80E8DD5375.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/WBP_BoxInventory.uasset'
+[2026.04.06-12.17.30:246][577]LogFileHelpers: InternalPromptForCheckoutAndSave took 100.731 ms (total: 3.13 sec)
+[2026.04.06-12.17.30:314][577]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-12.17.30:314][577]LogContentValidation: Enabled validators:
+[2026.04.06-12.17.30:314][577]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-12.17.30:314][577]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-12.17.30:314][577]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-12.17.30:314][577]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-12.17.30:314][577]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-12.17.30:314][577]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-12.17.30:315][577]AssetCheck: /Game/Blueprints/UI/WBP_BoxInventory Validating asset
+[2026.04.06-12.18.11:779][616]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2026.04.06-12.18.12:186][626]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-12.18.12:280][626]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/WBP_BoxInventory] ([2] browsable assets)...
+[2026.04.06-12.18.12:283][626]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/WBP_BoxInventory.WBP_BoxInventory]
+[2026.04.06-12.18.12:283][626]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/WBP_BoxInventory]
+[2026.04.06-12.18.12:283][626]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/WBP_BoxInventory" FILE="../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/WBP_BoxInventory.uasset" SILENT=true
+[2026.04.06-12.18.12:298][626]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/WBP_BoxInventory
+[2026.04.06-12.18.12:298][626]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/WBP_BoxInventory6AAD4CB84CA955E49A0CB4B5DA1B9459.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/WBP_BoxInventory.uasset'
+[2026.04.06-12.18.12:309][626]LogFileHelpers: InternalPromptForCheckoutAndSave took 122.352 ms (total: 3.25 sec)
+[2026.04.06-12.18.12:388][626]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-12.18.12:388][626]LogContentValidation: Enabled validators:
+[2026.04.06-12.18.12:388][626]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-12.18.12:388][626]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-12.18.12:388][626]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-12.18.12:388][626]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-12.18.12:388][626]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-12.18.12:388][626]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-12.18.12:389][626]AssetCheck: /Game/Blueprints/UI/WBP_BoxInventory Validating asset
+[2026.04.06-12.20.11:350][213]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1768.831543
+[2026.04.06-12.20.11:659][225]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.06-12.20.11:659][225]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1769.112427, Update Interval: 322.427429
+[2026.04.06-12.26.05:976][729]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2123.453369
+[2026.04.06-12.26.06:975][732]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.06-12.26.06:975][732]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2124.118164, Update Interval: 352.975861
+[2026.04.06-12.27.00:698][890]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2026.04.06-12.27.00:703][890]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Blueprints/MinecraftMap' took 0.230
+[2026.04.06-12.27.00:706][890]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/WBP_BoxInventory] ([2] browsable assets)...
+[2026.04.06-12.27.00:718][890]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/WBP_BoxInventory.WBP_BoxInventory]
+[2026.04.06-12.27.00:719][890]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/WBP_BoxInventory]
+[2026.04.06-12.27.00:722][890]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/UI/WBP_BoxInventory_Auto2
+[2026.04.06-12.27.00:722][890]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/WBP_BoxInventory_Auto251471A9A4CE0D29D6A42FB8074D3C9BD.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/Autosaves/Game/Blueprints/UI/WBP_BoxInventory_Auto2.uasset'
+[2026.04.06-12.27.00:722][890]LogFileHelpers: Auto-saving content packages took 0.017
+[2026.04.06-12.32.43:490][919]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2520.961426
+[2026.04.06-12.32.44:488][922]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.06-12.32.44:488][922]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2521.625732, Update Interval: 348.762482
+[2026.04.06-12.34.33:954][328]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-12.34.34:088][328]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/UI/WBP_BoxInventory] ([2] browsable assets)...
+[2026.04.06-12.34.34:088][328]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/WBP_BoxInventory]
+[2026.04.06-12.34.34:088][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/WBP_BoxInventory" FILE="../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/WBP_BoxInventory.uasset" SILENT=true
+[2026.04.06-12.34.34:092][328]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/WBP_BoxInventory
+[2026.04.06-12.34.34:092][328]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/WBP_BoxInventory4A0BFDD04A86D962167CAFAC31BE63B6.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/WBP_BoxInventory.uasset'
+[2026.04.06-12.34.34:102][328]LogFileHelpers: InternalPromptForCheckoutAndSave took 148.514 ms (total: 3.40 sec)
+[2026.04.06-12.34.34:200][328]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-12.34.34:200][328]LogContentValidation: Enabled validators:
+[2026.04.06-12.34.34:200][328]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-12.34.34:200][328]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-12.34.34:200][328]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-12.34.34:200][328]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-12.34.34:200][328]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-12.34.34:200][328]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-12.34.34:201][328]AssetCheck: /Game/Blueprints/UI/WBP_BoxInventory Validating asset
+[2026.04.06-12.34.34:665][350]LogSlate: Window 'WBP_BoxInventory' being destroyed
+[2026.04.06-12.34.34:672][350]LogSlate: Window 'WBP_BoxInventory' being destroyed
+[2026.04.06-12.34.34:691][350]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.34.34:691][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.34.34:731][350]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.34.34:731][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.34.34:805][350]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.04.06-12.34.34:805][350]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.34.34:805][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.34.34:857][350]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.34.34:857][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.34.34:862][350]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.34.34:862][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.34.34:881][350]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.04.06-12.34.34:881][350]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.34.34:881][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.34.34:958][350]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.34.34:958][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.34.34:963][350]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.34.34:963][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.34.35:075][350]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2026.04.06-12.34.38:951][549]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2026.04.06-12.34.38:976][549]LogStall: Shutdown...
+[2026.04.06-12.34.38:976][549]LogStall: Shutdown complete.
+[2026.04.06-12.34.38:995][549]LogSlate: Window 'Mincraft - Unreal Editor' being destroyed
+[2026.04.06-12.34.39:178][549]Cmd: QUIT_EDITOR
+[2026.04.06-12.34.39:178][550]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2026.04.06-12.34.39:181][550]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.04.06-12.34.39:183][550]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2026.04.06-12.34.39:183][550]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2026.04.06-12.34.39:184][550]LogWorld: UWorld::CleanupWorld for MinecraftMap, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.34.39:184][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.34.39:184][550]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Blueprints/MinecraftMap.MinecraftMap
+[2026.04.06-12.34.39:189][550]LogStylusInput: Shutting down StylusInput subsystem.
+[2026.04.06-12.34.39:189][550]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2026.04.06-12.34.39:190][550]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2026.04.06-12.34.39:199][550]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.34.39:199][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.34.39:202][550]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.34.39:202][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.34.39:205][550]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.34.39:205][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.34.39:208][550]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.34.39:208][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.34.39:211][550]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.34.39:211][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.34.39:212][550]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.34.39:212][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.34.39:215][550]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.34.39:215][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.34.39:218][550]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.34.39:218][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.34.39:220][550]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.34.39:220][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.34.39:222][550]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.34.39:222][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.34.39:225][550]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.34.39:225][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.34.39:227][550]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.34.39:227][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.34.39:229][550]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.34.39:229][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.34.39:232][550]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.34.39:232][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.34.39:234][550]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.34.39:234][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.34.39:236][550]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.34.39:236][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.34.39:238][550]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.34.39:238][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.34.39:240][550]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.34.39:240][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.34.39:243][550]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.34.39:243][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.34.39:244][550]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-12.34.39:244][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-12.34.39:247][550]LogRuntimeTelemetry: Recording EnginePreExit events
+[2026.04.06-12.34.39:247][550]LogStudioTelemetry: Ended StudioTelemetry Session
+[2026.04.06-12.34.39:248][550]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2026.04.06-12.34.40:120][550]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2026.04.06-12.34.40:120][550]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2026.04.06-12.34.40:120][550]LogAudio: Display: Audio Device unregistered from world 'MinecraftMap'.
+[2026.04.06-12.34.40:120][550]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2026.04.06-12.34.40:120][550]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2026.04.06-12.34.40:124][550]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2026.04.06-12.34.40:173][550]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2026.04.06-12.34.40:173][550]LogAudio: Display: Audio Device Manager Shutdown
+[2026.04.06-12.34.40:174][550]LogWindowsTextInputMethodSystem: Activated input method: 한국어(대한민국) - Microsoft 입력기 (TSF IME).
+[2026.04.06-12.34.40:178][550]LogExit: Preparing to exit.
+[2026.04.06-12.34.40:250][550]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2026.04.06-12.34.40:280][550]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.06-12.34.40:280][550]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.06-12.34.40:280][550]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.06-12.34.40:280][550]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.06-12.34.40:280][550]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.06-12.34.40:280][550]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.06-12.34.40:280][550]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.06-12.34.40:280][550]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.06-12.34.40:280][550]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.06-12.34.40:280][550]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.06-12.34.40:280][550]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.06-12.34.40:280][550]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.06-12.34.40:280][550]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.06-12.34.40:280][550]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.06-12.34.40:280][550]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.06-12.34.40:280][550]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.06-12.34.40:280][550]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.06-12.34.40:280][550]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.06-12.34.40:280][550]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.06-12.34.40:280][550]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.06-12.34.40:280][550]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.06-12.34.41:435][550]LogEditorDataStorage: Deinitializing
+[2026.04.06-12.34.41:577][550]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.04.06-12.34.41:593][550]LogExit: Editor shut down
+[2026.04.06-12.34.41:595][550]LogExit: Transaction tracking system shut down
+[2026.04.06-12.34.41:744][550]LogExit: Object subsystem successfully closed.
+[2026.04.06-12.34.41:755][550]LogShaderCompilers: Display: Shaders left to compile 0
+[2026.04.06-12.34.41:838][550]LogShaderCompilers: Display: Shaders left to compile 0
+[2026.04.06-12.34.41:915][550]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.04.06-12.34.41:921][550]LogMemoryProfiler: Shutdown
+[2026.04.06-12.34.41:921][550]LogNetworkingProfiler: Shutdown
+[2026.04.06-12.34.41:921][550]LoadingProfiler: Shutdown
+[2026.04.06-12.34.41:922][550]LogTimingProfiler: Shutdown
+[2026.04.06-12.34.41:923][550]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.04.06-12.34.41:924][550]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.04.06-12.34.42:200][550]LogChaosDD: Chaos Debug Draw Shutdown
+[2026.04.06-12.34.42:200][550]LogNFORDenoise: NFORDenoise function shutting down
+[2026.04.06-12.34.42:200][550]RenderDocPlugin: plugin has been unloaded.
+[2026.04.06-12.34.42:227][550]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2026.04.06-12.34.42:227][550]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7EC91819-47AD-C639-3E26-2B9A9F17FD16%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=e64027614295557a5016c5a1ef27b324%7C70338bbb601c4bb291cd8f2331f0b7c4%7Cc1d54bcb-e469-4840-8fdb-8e56e7deadb5&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2026.04.06-12.34.43:283][550]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2026.04.06-12.34.43:284][550]LogXGEController: Cleaning working directory: C:/Users/user/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2026.04.06-12.34.43:289][550]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2026.04.06-12.34.43:289][550]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2026.04.06-12.34.43:289][550]LogPakFile: Destroying PakPlatformFile
+[2026.04.06-12.34.43:935][550]LogD3D12RHI: ~FD3D12DynamicRHI
+[2026.04.06-12.34.43:970][550]LogExit: Exiting.
+[2026.04.06-12.34.43:984][550]Log file closed, 04/06/26 21:34:43
