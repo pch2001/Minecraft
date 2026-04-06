@@ -17383,3 +17383,1418 @@ Script call stack:
 [2026.04.06-06.50.35:303][322]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.04.06-06.50.35:303][322]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.04.06-06.50.35:303][322]AssetCheck: /Game/Blueprints/MinecraftMap Validating asset
+[2026.04.06-06.51.16:780][506]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24322.558594
+[2026.04.06-06.51.17:780][509]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.06-06.51.17:780][509]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24323.224609, Update Interval: 322.154602
+[2026.04.06-06.51.23:774][527]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.06-06.51.23:779][527]LogContentBundle: [MinecraftMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.04.06-06.51.23:779][527]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' started...
+[2026.04.06-06.51.23:789][527]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' took 9.785 ms
+[2026.04.06-06.51.23:789][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.06-06.51.23:789][527]LogPlayLevel: Creating play world package: /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-06.51.23:791][527]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.04.06-06.51.23:791][527]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 410 us
+[2026.04.06-06.51.23:791][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002433s)
+[2026.04.06-06.51.23:791][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/MinecraftMap.MinecraftMap to /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap (0.002469s)
+[2026.04.06-06.51.23:866][527]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2026.04.06-06.51.23:870][527]LogChaosDD: Creating Chaos Debug Draw Scene for world MinecraftMap
+[2026.04.06-06.51.23:872][527]LogWorldPartition: ULevel::OnLevelLoaded(MinecraftMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.06-06.51.23:872][527]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.06-06.51.23:872][527]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.06-06.51.23:872][527]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.06-06.51.23:872][527]LogWorldPartition: Display: WorldPartition initialize took 561 us (total: 35.269 ms)
+[2026.04.06-06.51.23:873][527]LogPlayLevel: PIE: World Init took: (0.002470s)
+[2026.04.06-06.51.23:873][527]LogAudio: Display: Creating Audio Device:                 Id: 94, Scope: Unique, Realtime: True
+[2026.04.06-06.51.23:873][527]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.06-06.51.23:873][527]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.06-06.51.23:873][527]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.06-06.51.23:873][527]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.06-06.51.23:873][527]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.06-06.51.23:873][527]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.06-06.51.23:873][527]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.06-06.51.23:873][527]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.06-06.51.23:873][527]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.06-06.51.23:873][527]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.06-06.51.23:873][527]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.06-06.51.23:876][527]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.06-06.51.23:884][527]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(AirPods)
+[2026.04.06-06.51.23:884][527]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.06-06.51.23:885][527]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.06-06.51.23:885][527]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.06-06.51.23:886][527]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=94
+[2026.04.06-06.51.23:886][527]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=94
+[2026.04.06-06.51.23:888][527]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=94
+[2026.04.06-06.51.23:888][527]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=94
+[2026.04.06-06.51.23:888][527]LogInit: FAudioDevice initialized with ID 94.
+[2026.04.06-06.51.23:888][527]LogAudio: Display: Audio Device (ID: 94) registered with world 'MinecraftMap'.
+[2026.04.06-06.51.23:888][527]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 94
+[2026.04.06-06.51.23:895][527]LogLoad: Game class is 'BP_MincraftGameMode_C'
+[2026.04.06-06.51.23:896][527]LogWorld: Bringing World /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap up for play (max tick rate 60) at 2026.04.06-15.51.23
+[2026.04.06-06.51.23:896][527]LogWorld: Bringing up level for play took: 0.000653
+[2026.04.06-06.51.23:899][527]LogOnline: OSS: Created online subsystem instance for: :Context_148
+[2026.04.06-06.51.23:904][527]PIE: Server logged in
+[2026.04.06-06.51.23:907][527]PIE: Play in editor total start time 0.128 seconds.
+[2026.04.06-06.51.24:026][528]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.06-06.54.15:490][802]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-06.54.15:490][802]LogWorld: BeginTearingDown for /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-06.54.15:492][802]LogWorld: UWorld::CleanupWorld for MinecraftMap, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-06.54.18:451][802]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-06.54.18:452][802]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap
+[2026.04.06-06.54.18:470][802]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.06-06.54.18:481][802]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-06.54.18:550][802]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-06.54.18:551][802]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 94
+[2026.04.06-06.54.18:552][802]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=94, StreamState=4
+[2026.04.06-06.54.18:557][802]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=94, StreamState=2
+[2026.04.06-06.54.25:571][802]LogUObjectHash: Compacting FUObjectHashTables data took  97.37ms
+[2026.04.06-06.54.25:654][803]LogPlayLevel: Display: Destroying online subsystem :Context_148
+[2026.04.06-06.54.37:882][248]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2026.04.06-06.54.38:337][253]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-06.54.38:460][253]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_MincraftGameMode] ([2] browsable assets)...
+[2026.04.06-06.54.38:460][253]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_MincraftGameMode]
+[2026.04.06-06.54.38:460][253]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MincraftGameMode" FILE="../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/BP_MincraftGameMode.uasset" SILENT=true
+[2026.04.06-06.54.38:479][253]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_MincraftGameMode
+[2026.04.06-06.54.38:479][253]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/BP_MincraftGameModeE1B35DCF481249B3B0AE8B904D1399BA.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/BP_MincraftGameMode.uasset'
+[2026.04.06-06.54.38:492][253]LogFileHelpers: InternalPromptForCheckoutAndSave took 155.621 ms (total: 19.5 sec)
+[2026.04.06-06.54.38:570][253]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-06.54.38:570][253]LogContentValidation: Enabled validators:
+[2026.04.06-06.54.38:570][253]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-06.54.38:570][253]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-06.54.38:570][253]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-06.54.38:570][253]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-06.54.38:570][253]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-06.54.38:570][253]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-06.54.38:570][253]AssetCheck: /Game/Blueprints/BP_MincraftGameMode Validating asset
+[2026.04.06-06.54.43:697][554]LogToolMenus: Warning: Menu already registered : WorldPartition.ContextualMenu
+[2026.04.06-06.55.08:316][997]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-06.55.08:499][997]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2026.04.06-06.55.08:516][997]LogSavePackage: Moving output files for package: /Game/Blueprints/MinecraftMap
+[2026.04.06-06.55.08:516][997]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/MinecraftMapE8006F2B4F809E77494DA9B5482268E0.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/MinecraftMap.umap'
+[2026.04.06-06.55.08:522][997]LogFileHelpers: Saving map 'MinecraftMap' took 0.088
+[2026.04.06-06.55.08:532][997]LogFileHelpers: InternalPromptForCheckoutAndSave took 215.228 ms (total: 19.7 sec)
+[2026.04.06-06.55.08:618][997]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-06.55.08:618][997]LogContentValidation: Enabled validators:
+[2026.04.06-06.55.08:618][997]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-06.55.08:618][997]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-06.55.08:618][997]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-06.55.08:618][997]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-06.55.08:618][997]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-06.55.08:618][997]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-06.55.08:618][997]AssetCheck: /Game/Blueprints/MinecraftMap Validating asset
+[2026.04.06-06.55.11:073][142]LogToolMenus: Warning: Menu already registered : WorldPartition.ContextualMenu
+[2026.04.06-06.55.16:748][477]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-06.55.16:904][477]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2026.04.06-06.55.16:912][477]LogSavePackage: Moving output files for package: /Game/Blueprints/MinecraftMap
+[2026.04.06-06.55.16:912][477]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/MinecraftMap8F65944F41640048025A1C8EED6B3DC2.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/MinecraftMap.umap'
+[2026.04.06-06.55.16:919][477]LogFileHelpers: Saving map 'MinecraftMap' took 0.085
+[2026.04.06-06.55.16:929][477]LogFileHelpers: InternalPromptForCheckoutAndSave took 180.964 ms (total: 19.9 sec)
+[2026.04.06-06.55.17:019][477]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-06.55.17:019][477]LogContentValidation: Enabled validators:
+[2026.04.06-06.55.17:019][477]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-06.55.17:019][477]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-06.55.17:019][477]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-06.55.17:019][477]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-06.55.17:019][477]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-06.55.17:020][477]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-06.55.17:020][477]AssetCheck: /Game/Blueprints/MinecraftMap Validating asset
+[2026.04.06-06.55.19:990][655]LogToolMenus: Warning: Menu already registered : WorldPartition.ContextualMenu
+[2026.04.06-06.55.28:283][127]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2026.04.06-06.56.15:552][930]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-06.56.15:713][930]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2026.04.06-06.56.15:725][930]LogSavePackage: Moving output files for package: /Game/Blueprints/MinecraftMap
+[2026.04.06-06.56.15:725][930]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/MinecraftMapED5AC81145B9F42ABE06EF854E9B83C5.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/MinecraftMap.umap'
+[2026.04.06-06.56.15:733][930]LogFileHelpers: Saving map 'MinecraftMap' took 0.095
+[2026.04.06-06.56.15:743][930]LogFileHelpers: InternalPromptForCheckoutAndSave took 190.875 ms (total: 20.1 sec)
+[2026.04.06-06.56.15:835][930]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-06.56.15:835][930]LogContentValidation: Enabled validators:
+[2026.04.06-06.56.15:835][930]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-06.56.15:835][930]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-06.56.15:835][930]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-06.56.15:835][930]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-06.56.15:835][930]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-06.56.15:835][930]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-06.56.15:835][930]AssetCheck: /Game/Blueprints/MinecraftMap Validating asset
+[2026.04.06-06.56.17:526][ 29]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.06-06.56.17:541][ 29]LogContentBundle: [MinecraftMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.04.06-06.56.17:541][ 29]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' started...
+[2026.04.06-06.56.17:542][ 29]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' took 557 us (total: 10.343 ms)
+[2026.04.06-06.56.17:542][ 29]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.06-06.56.17:542][ 29]LogPlayLevel: Creating play world package: /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-06.56.17:544][ 29]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.04.06-06.56.17:545][ 29]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 294 us (total: 705 us)
+[2026.04.06-06.56.17:545][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002264s)
+[2026.04.06-06.56.17:545][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/MinecraftMap.MinecraftMap to /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap (0.002303s)
+[2026.04.06-06.56.17:619][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2026.04.06-06.56.17:623][ 29]LogChaosDD: Creating Chaos Debug Draw Scene for world MinecraftMap
+[2026.04.06-06.56.17:626][ 29]LogWorldPartition: ULevel::OnLevelLoaded(MinecraftMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.06-06.56.17:626][ 29]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.06-06.56.17:626][ 29]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.06-06.56.17:626][ 29]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.06-06.56.17:627][ 29]LogWorldPartition: Display: WorldPartition initialize took 721 us (total: 35.991 ms)
+[2026.04.06-06.56.17:627][ 29]LogPlayLevel: PIE: World Init took: (0.003930s)
+[2026.04.06-06.56.17:628][ 29]LogAudio: Display: Creating Audio Device:                 Id: 95, Scope: Unique, Realtime: True
+[2026.04.06-06.56.17:628][ 29]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.06-06.56.17:628][ 29]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.06-06.56.17:628][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.06-06.56.17:628][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.06-06.56.17:628][ 29]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.06-06.56.17:628][ 29]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.06-06.56.17:628][ 29]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.06-06.56.17:628][ 29]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.06-06.56.17:628][ 29]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.06-06.56.17:628][ 29]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.06-06.56.17:628][ 29]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.06-06.56.17:630][ 29]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.06-06.56.17:643][ 29]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(AirPods)
+[2026.04.06-06.56.17:644][ 29]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.06-06.56.17:644][ 29]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.06-06.56.17:644][ 29]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.06-06.56.17:645][ 29]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=95
+[2026.04.06-06.56.17:645][ 29]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=95
+[2026.04.06-06.56.17:648][ 29]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=95
+[2026.04.06-06.56.17:648][ 29]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=95
+[2026.04.06-06.56.17:648][ 29]LogInit: FAudioDevice initialized with ID 95.
+[2026.04.06-06.56.17:648][ 29]LogAudio: Display: Audio Device (ID: 95) registered with world 'MinecraftMap'.
+[2026.04.06-06.56.17:648][ 29]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 95
+[2026.04.06-06.56.17:653][ 29]LogLoad: Game class is 'BP_MincraftGameMode_C'
+[2026.04.06-06.56.17:654][ 29]LogWorld: Bringing World /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap up for play (max tick rate 60) at 2026.04.06-15.56.17
+[2026.04.06-06.56.17:654][ 29]LogWorld: Bringing up level for play took: 0.000728
+[2026.04.06-06.56.17:657][ 29]LogOnline: OSS: Created online subsystem instance for: :Context_149
+[2026.04.06-06.56.17:665][ 29]PIE: Server logged in
+[2026.04.06-06.56.17:668][ 29]PIE: Play in editor total start time 0.127 seconds.
+[2026.04.06-06.56.17:723][ 30]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.06-06.57.24:736][918]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24690.542969
+[2026.04.06-06.57.25:026][926]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.06-06.57.25:026][926]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24690.791016, Update Interval: 346.034119
+[2026.04.06-06.57.52:728][758]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2026.04.06-06.59.10:494][220]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-06.59.10:495][220]LogWorld: BeginTearingDown for /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-06.59.10:495][220]LogWorld: UWorld::CleanupWorld for MinecraftMap, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-06.59.10:866][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-06.59.10:866][220]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap
+[2026.04.06-06.59.10:874][220]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.06-06.59.10:879][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-06.59.10:965][220]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-06.59.10:965][220]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 95
+[2026.04.06-06.59.10:965][220]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=95, StreamState=4
+[2026.04.06-06.59.10:969][220]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=95, StreamState=2
+[2026.04.06-06.59.12:476][220]LogUObjectHash: Compacting FUObjectHashTables data took  27.67ms
+[2026.04.06-06.59.12:523][221]LogPlayLevel: Display: Destroying online subsystem :Context_149
+[2026.04.06-06.59.14:702][333]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-06.59.14:849][333]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2026.04.06-06.59.14:859][333]LogSavePackage: Moving output files for package: /Game/Blueprints/MinecraftMap
+[2026.04.06-06.59.14:859][333]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/MinecraftMap4350DCC24B3B546642626292B6ED3ED9.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/MinecraftMap.umap'
+[2026.04.06-06.59.14:865][333]LogFileHelpers: Saving map 'MinecraftMap' took 0.089
+[2026.04.06-06.59.14:874][333]LogFileHelpers: InternalPromptForCheckoutAndSave took 173.093 ms (total: 20.2 sec)
+[2026.04.06-06.59.14:958][333]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-06.59.14:958][333]LogContentValidation: Enabled validators:
+[2026.04.06-06.59.14:958][333]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-06.59.14:958][333]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-06.59.14:958][333]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-06.59.14:958][333]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-06.59.14:958][333]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-06.59.14:958][333]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-06.59.14:958][333]AssetCheck: /Game/Blueprints/MinecraftMap Validating asset
+[2026.04.06-06.59.15:410][360]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.06-06.59.15:415][360]LogContentBundle: [MinecraftMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.04.06-06.59.15:416][360]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' started...
+[2026.04.06-06.59.15:416][360]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' took 456 us (total: 10.799 ms)
+[2026.04.06-06.59.15:416][360]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.06-06.59.15:442][360]LogPlayLevel: Creating play world package: /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-06.59.15:443][360]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.04.06-06.59.15:444][360]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 230 us (total: 935 us)
+[2026.04.06-06.59.15:444][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002029s)
+[2026.04.06-06.59.15:444][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/MinecraftMap.MinecraftMap to /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap (0.002074s)
+[2026.04.06-06.59.15:534][360]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2026.04.06-06.59.15:538][360]LogChaosDD: Creating Chaos Debug Draw Scene for world MinecraftMap
+[2026.04.06-06.59.15:540][360]LogWorldPartition: ULevel::OnLevelLoaded(MinecraftMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.06-06.59.15:540][360]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.06-06.59.15:540][360]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.06-06.59.15:540][360]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.06-06.59.15:540][360]LogWorldPartition: Display: WorldPartition initialize took 618 us (total: 36.610 ms)
+[2026.04.06-06.59.15:540][360]LogPlayLevel: PIE: World Init took: (0.002712s)
+[2026.04.06-06.59.15:541][360]LogAudio: Display: Creating Audio Device:                 Id: 96, Scope: Unique, Realtime: True
+[2026.04.06-06.59.15:541][360]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.06-06.59.15:541][360]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.06-06.59.15:541][360]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.06-06.59.15:541][360]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.06-06.59.15:541][360]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.06-06.59.15:541][360]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.06-06.59.15:541][360]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.06-06.59.15:541][360]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.06-06.59.15:541][360]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.06-06.59.15:541][360]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.06-06.59.15:541][360]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.06-06.59.15:543][360]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.06-06.59.15:552][360]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(AirPods)
+[2026.04.06-06.59.15:552][360]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.06-06.59.15:552][360]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.06-06.59.15:552][360]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.06-06.59.15:552][360]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=96
+[2026.04.06-06.59.15:553][360]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=96
+[2026.04.06-06.59.15:555][360]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=96
+[2026.04.06-06.59.15:555][360]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=96
+[2026.04.06-06.59.15:555][360]LogInit: FAudioDevice initialized with ID 96.
+[2026.04.06-06.59.15:555][360]LogAudio: Display: Audio Device (ID: 96) registered with world 'MinecraftMap'.
+[2026.04.06-06.59.15:555][360]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 96
+[2026.04.06-06.59.15:559][360]LogLoad: Game class is 'BP_MincraftGameMode_C'
+[2026.04.06-06.59.15:560][360]LogWorld: Bringing World /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap up for play (max tick rate 60) at 2026.04.06-15.59.15
+[2026.04.06-06.59.15:560][360]LogWorld: Bringing up level for play took: 0.000651
+[2026.04.06-06.59.15:562][360]LogOnline: OSS: Created online subsystem instance for: :Context_150
+[2026.04.06-06.59.15:568][360]PIE: Server logged in
+[2026.04.06-06.59.15:570][360]PIE: Play in editor total start time 0.155 seconds.
+[2026.04.06-06.59.15:618][361]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.06-07.00.19:974][717]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-07.00.19:974][717]LogWorld: BeginTearingDown for /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-07.00.19:975][717]LogWorld: UWorld::CleanupWorld for MinecraftMap, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-07.00.20:366][717]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-07.00.20:366][717]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap
+[2026.04.06-07.00.20:371][717]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.06-07.00.20:378][717]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-07.00.20:436][717]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.06-07.00.20:436][717]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 96
+[2026.04.06-07.00.20:436][717]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=96, StreamState=4
+[2026.04.06-07.00.20:439][717]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=96, StreamState=2
+[2026.04.06-07.00.20:445][717]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-07.00.21:994][717]LogUObjectHash: Compacting FUObjectHashTables data took  26.65ms
+[2026.04.06-07.00.22:094][718]LogPlayLevel: Display: Destroying online subsystem :Context_150
+[2026.04.06-07.02.03:305][879]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.06-07.02.03:311][879]LogContentBundle: [MinecraftMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.04.06-07.02.03:311][879]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' started...
+[2026.04.06-07.02.03:311][879]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' took 448 us (total: 11.248 ms)
+[2026.04.06-07.02.03:311][879]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.06-07.02.03:332][879]LogPlayLevel: Creating play world package: /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-07.02.03:333][879]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.04.06-07.02.03:333][879]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 197 us (total: 1.133 ms)
+[2026.04.06-07.02.03:334][879]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001732s)
+[2026.04.06-07.02.03:334][879]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/MinecraftMap.MinecraftMap to /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap (0.001768s)
+[2026.04.06-07.02.03:424][879]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2026.04.06-07.02.03:429][879]LogChaosDD: Creating Chaos Debug Draw Scene for world MinecraftMap
+[2026.04.06-07.02.03:431][879]LogWorldPartition: ULevel::OnLevelLoaded(MinecraftMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.06-07.02.03:431][879]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.06-07.02.03:431][879]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.06-07.02.03:431][879]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.06-07.02.03:431][879]LogWorldPartition: Display: WorldPartition initialize took 543 us (total: 37.153 ms)
+[2026.04.06-07.02.03:431][879]LogPlayLevel: PIE: World Init took: (0.002546s)
+[2026.04.06-07.02.03:432][879]LogAudio: Display: Creating Audio Device:                 Id: 97, Scope: Unique, Realtime: True
+[2026.04.06-07.02.03:432][879]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.06-07.02.03:432][879]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.06-07.02.03:432][879]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.06-07.02.03:432][879]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.06-07.02.03:432][879]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.06-07.02.03:432][879]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.06-07.02.03:432][879]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.06-07.02.03:432][879]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.06-07.02.03:432][879]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.06-07.02.03:432][879]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.06-07.02.03:432][879]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.06-07.02.03:435][879]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.06-07.02.03:443][879]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(AirPods)
+[2026.04.06-07.02.03:444][879]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.06-07.02.03:444][879]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.06-07.02.03:444][879]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.06-07.02.03:445][879]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=97
+[2026.04.06-07.02.03:445][879]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=97
+[2026.04.06-07.02.03:446][879]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=97
+[2026.04.06-07.02.03:446][879]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=97
+[2026.04.06-07.02.03:446][879]LogInit: FAudioDevice initialized with ID 97.
+[2026.04.06-07.02.03:446][879]LogAudio: Display: Audio Device (ID: 97) registered with world 'MinecraftMap'.
+[2026.04.06-07.02.03:446][879]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 97
+[2026.04.06-07.02.03:451][879]LogLoad: Game class is 'BP_MincraftGameMode_C'
+[2026.04.06-07.02.03:451][879]LogWorld: Bringing World /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap up for play (max tick rate 60) at 2026.04.06-16.02.03
+[2026.04.06-07.02.03:452][879]LogWorld: Bringing up level for play took: 0.000754
+[2026.04.06-07.02.03:454][879]LogOnline: OSS: Created online subsystem instance for: :Context_151
+[2026.04.06-07.02.03:459][879]PIE: Server logged in
+[2026.04.06-07.02.03:463][879]PIE: Play in editor total start time 0.152 seconds.
+[2026.04.06-07.02.03:509][880]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.06-07.03.46:755][124]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25072.636719
+[2026.04.06-07.03.47:754][127]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.06-07.03.47:754][127]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25073.302734, Update Interval: 333.251129
+[2026.04.06-07.04.24:104][687]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-07.04.24:104][687]LogWorld: BeginTearingDown for /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-07.04.24:105][687]LogWorld: UWorld::CleanupWorld for MinecraftMap, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-07.04.24:532][687]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-07.04.24:532][687]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap
+[2026.04.06-07.04.24:540][687]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.06-07.04.24:545][687]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-07.04.24:624][687]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-07.04.24:625][687]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 97
+[2026.04.06-07.04.24:625][687]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=97, StreamState=4
+[2026.04.06-07.04.24:628][687]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=97, StreamState=2
+[2026.04.06-07.04.26:157][687]LogUObjectHash: Compacting FUObjectHashTables data took  26.87ms
+[2026.04.06-07.04.26:220][688]Cmd: SELECT NONE
+[2026.04.06-07.04.26:242][688]LogPlayLevel: Display: Destroying online subsystem :Context_151
+[2026.04.06-07.04.29:128][808]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.04.06-07.04.30:095][808]LogSlate: Window 'Save Content' being destroyed
+[2026.04.06-07.04.30:104][808]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-07.04.30:280][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2026.04.06-07.04.30:287][808]LogSavePackage: Moving output files for package: /Game/Blueprints/MinecraftMap
+[2026.04.06-07.04.30:287][808]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/MinecraftMap6E28663F48C0643BE321CC83C9349141.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/MinecraftMap.umap'
+[2026.04.06-07.04.30:293][808]LogFileHelpers: All files are already saved.
+[2026.04.06-07.04.30:293][808]LogFileHelpers: Saving map 'MinecraftMap' took 0.089
+[2026.04.06-07.04.30:405][808]LogFileHelpers: InternalPromptForCheckoutAndSave took 299.963 ms (total: 20.5 sec)
+[2026.04.06-07.04.30:405][808]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Blueprints/MinecraftMap.MinecraftMap
+[2026.04.06-07.04.30:405][808]Cmd: MAP LOAD FILE="../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/MinecraftMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.04.06-07.04.30:420][808]LogWorld: UWorld::CleanupWorld for MinecraftMap, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-07.04.30:420][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-07.04.30:420][808]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Blueprints/MinecraftMap.MinecraftMap
+[2026.04.06-07.04.30:499][808]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.06-07.04.30:502][808]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2026.04.06-07.04.30:505][808]LogStreaming: Display: FlushAsyncLoading(584): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.06-07.04.30:522][808]LogAudio: Display: Audio Device (ID: 1) registered with world 'MinecraftMap'.
+[2026.04.06-07.04.30:522][808]LogChaosDD: Creating Chaos Debug Draw Scene for world MinecraftMap
+[2026.04.06-07.04.30:524][808]LogWorldPartition: ULevel::OnLevelLoaded(MinecraftMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2026.04.06-07.04.30:524][808]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.06-07.04.30:524][808]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Blueprints/MinecraftMap.MinecraftMap, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.06-07.04.30:527][808]LogWorldPartition: Display: WorldPartition initialize took 3.545 ms (total: 40.698 ms)
+[2026.04.06-07.04.30:560][808]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.04.06-07.04.30:633][808]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2026.04.06-07.04.30:647][808]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.04.06-07.04.30:647][808]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.444ms to complete.
+[2026.04.06-07.04.30:739][808]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-07.04.30:739][808]LogContentValidation: Enabled validators:
+[2026.04.06-07.04.30:739][808]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-07.04.30:739][808]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-07.04.30:739][808]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-07.04.30:739][808]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-07.04.30:739][808]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-07.04.30:739][808]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-07.04.30:739][808]AssetCheck: /Game/Blueprints/MinecraftMap Validating asset
+[2026.04.06-07.04.30:811][809]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.06-07.04.31:351][831]LogAssetEditorSubsystem: Opening Asset editor for HLODLayer /Game/Blueprints/MinecraftMap_HLODLayer_Instanced.MinecraftMap_HLODLayer_Instanced
+[2026.04.06-07.04.34:133][972]LogAssetEditorSubsystem: Opening Asset editor for HLODLayer /Game/Blueprints/MinecraftMap_HLODLayer_Merged.MinecraftMap_HLODLayer_Merged
+[2026.04.06-07.04.50:711][898]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2026.04.06-07.04.50:730][898]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2026.04.06-07.04.51:182][922]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2026.04.06-07.05.37:573][575]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-07.05.37:843][575]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2026.04.06-07.05.37:862][575]LogSavePackage: Moving output files for package: /Game/Blueprints/MinecraftMap
+[2026.04.06-07.05.37:863][575]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/MinecraftMap907F48EA41A86D58BF1B6F958AB86816.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/MinecraftMap.umap'
+[2026.04.06-07.05.37:870][575]LogFileHelpers: Saving map 'MinecraftMap' took 0.184
+[2026.04.06-07.05.37:881][575]LogFileHelpers: InternalPromptForCheckoutAndSave took 307.304 ms (total: 20.9 sec)
+[2026.04.06-07.05.37:980][575]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-07.05.37:980][575]LogContentValidation: Enabled validators:
+[2026.04.06-07.05.37:980][575]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-07.05.37:980][575]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-07.05.37:980][575]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-07.05.37:980][575]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-07.05.37:980][575]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-07.05.37:980][575]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-07.05.37:980][575]AssetCheck: /Game/Blueprints/MinecraftMap Validating asset
+[2026.04.06-07.05.39:057][636]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.06-07.05.39:075][636]LogContentBundle: [MinecraftMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.04.06-07.05.39:075][636]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' started...
+[2026.04.06-07.05.39:076][636]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' took 766 us (total: 12.014 ms)
+[2026.04.06-07.05.39:076][636]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.06-07.05.39:076][636]LogPlayLevel: Creating play world package: /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-07.05.39:079][636]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.04.06-07.05.39:080][636]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 395 us (total: 1.528 ms)
+[2026.04.06-07.05.39:080][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003903s)
+[2026.04.06-07.05.39:080][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/MinecraftMap.MinecraftMap to /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap (0.003957s)
+[2026.04.06-07.05.39:163][636]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2026.04.06-07.05.39:167][636]LogChaosDD: Creating Chaos Debug Draw Scene for world MinecraftMap
+[2026.04.06-07.05.39:169][636]LogWorldPartition: ULevel::OnLevelLoaded(MinecraftMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.06-07.05.39:169][636]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.06-07.05.39:169][636]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.06-07.05.39:169][636]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.06-07.05.39:170][636]LogWorldPartition: Display: WorldPartition initialize took 799 us (total: 41.497 ms)
+[2026.04.06-07.05.39:170][636]LogPlayLevel: PIE: World Init took: (0.003347s)
+[2026.04.06-07.05.39:171][636]LogAudio: Display: Creating Audio Device:                 Id: 98, Scope: Unique, Realtime: True
+[2026.04.06-07.05.39:171][636]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.06-07.05.39:171][636]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.06-07.05.39:171][636]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.06-07.05.39:171][636]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.06-07.05.39:171][636]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.06-07.05.39:171][636]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.06-07.05.39:171][636]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.06-07.05.39:171][636]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.06-07.05.39:171][636]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.06-07.05.39:171][636]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.06-07.05.39:171][636]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.06-07.05.39:175][636]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.06-07.05.39:186][636]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(AirPods)
+[2026.04.06-07.05.39:187][636]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.06-07.05.39:187][636]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.06-07.05.39:187][636]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.06-07.05.39:188][636]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=98
+[2026.04.06-07.05.39:188][636]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=98
+[2026.04.06-07.05.39:190][636]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=98
+[2026.04.06-07.05.39:190][636]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=98
+[2026.04.06-07.05.39:190][636]LogInit: FAudioDevice initialized with ID 98.
+[2026.04.06-07.05.39:190][636]LogAudio: Display: Audio Device (ID: 98) registered with world 'MinecraftMap'.
+[2026.04.06-07.05.39:190][636]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 98
+[2026.04.06-07.05.39:198][636]LogLoad: Game class is 'BP_MincraftGameMode_C'
+[2026.04.06-07.05.39:199][636]LogWorld: Bringing World /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap up for play (max tick rate 60) at 2026.04.06-16.05.39
+[2026.04.06-07.05.39:199][636]LogWorld: Bringing up level for play took: 0.001170
+[2026.04.06-07.05.39:202][636]LogOnline: OSS: Created online subsystem instance for: :Context_152
+[2026.04.06-07.05.39:209][636]PIE: Server logged in
+[2026.04.06-07.05.39:212][636]PIE: Play in editor total start time 0.148 seconds.
+[2026.04.06-07.05.39:270][637]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.06-07.07.10:794][336]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-07.07.10:794][336]LogWorld: BeginTearingDown for /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-07.07.10:795][336]LogWorld: UWorld::CleanupWorld for MinecraftMap, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-07.07.11:136][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-07.07.11:137][336]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap
+[2026.04.06-07.07.11:143][336]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.06-07.07.11:147][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-07.07.11:228][336]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-07.07.11:229][336]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 98
+[2026.04.06-07.07.11:229][336]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=98, StreamState=4
+[2026.04.06-07.07.11:232][336]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=98, StreamState=2
+[2026.04.06-07.07.12:699][336]LogUObjectHash: Compacting FUObjectHashTables data took  26.80ms
+[2026.04.06-07.07.12:789][337]LogPlayLevel: Display: Destroying online subsystem :Context_152
+[2026.04.06-07.07.26:392][967]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Block/ISM/BP_WorldManager.BP_WorldManager
+[2026.04.06-07.07.26:395][967]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_74
+[2026.04.06-07.07.37:647][507]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2026.04.06-07.07.38:101][512]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-07.07.38:195][512]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Block/ISM/BP_WorldManager] ([2] browsable assets)...
+[2026.04.06-07.07.38:229][512]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Block/ISM/BP_WorldManager.BP_WorldManager]
+[2026.04.06-07.07.38:229][512]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Block/ISM/BP_WorldManager]
+[2026.04.06-07.07.38:270][512]LogSavePackage: Moving output files for package: /Game/Blueprints/Block/ISM/BP_WorldManager
+[2026.04.06-07.07.38:270][512]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/BP_WorldManagerC8ECB47D4BC36BBE2C743BBFF4A4901E.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/Block/ISM/BP_WorldManager.uasset'
+[2026.04.06-07.07.38:280][512]LogFileHelpers: InternalPromptForCheckoutAndSave took 180.153 ms (total: 21.0 sec)
+[2026.04.06-07.07.38:371][512]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-07.07.38:371][512]LogContentValidation: Enabled validators:
+[2026.04.06-07.07.38:371][512]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-07.07.38:371][512]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-07.07.38:371][512]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-07.07.38:371][512]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-07.07.38:371][512]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-07.07.38:371][512]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-07.07.38:371][512]AssetCheck: /Game/Blueprints/Block/ISM/BP_WorldManager Validating asset
+[2026.04.06-07.07.39:697][580]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.06-07.07.39:709][580]LogContentBundle: [MinecraftMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.04.06-07.07.39:710][580]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' started...
+[2026.04.06-07.07.39:710][580]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' took 726 us (total: 12.741 ms)
+[2026.04.06-07.07.39:710][580]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.06-07.07.39:710][580]LogPlayLevel: Creating play world package: /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-07.07.39:713][580]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.04.06-07.07.39:713][580]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 321 us (total: 1.850 ms)
+[2026.04.06-07.07.39:713][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002991s)
+[2026.04.06-07.07.39:713][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/MinecraftMap.MinecraftMap to /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap (0.003031s)
+[2026.04.06-07.07.39:804][580]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2026.04.06-07.07.39:823][580]LogChaosDD: Creating Chaos Debug Draw Scene for world MinecraftMap
+[2026.04.06-07.07.39:825][580]LogWorldPartition: ULevel::OnLevelLoaded(MinecraftMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.06-07.07.39:825][580]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.06-07.07.39:825][580]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.06-07.07.39:825][580]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.06-07.07.39:825][580]LogWorldPartition: Display: WorldPartition initialize took 684 us (total: 42.182 ms)
+[2026.04.06-07.07.39:825][580]LogPlayLevel: PIE: World Init took: (0.002754s)
+[2026.04.06-07.07.39:826][580]LogAudio: Display: Creating Audio Device:                 Id: 99, Scope: Unique, Realtime: True
+[2026.04.06-07.07.39:826][580]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.06-07.07.39:826][580]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.06-07.07.39:826][580]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.06-07.07.39:826][580]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.06-07.07.39:826][580]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.06-07.07.39:826][580]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.06-07.07.39:826][580]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.06-07.07.39:826][580]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.06-07.07.39:826][580]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.06-07.07.39:826][580]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.06-07.07.39:826][580]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.06-07.07.39:828][580]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.06-07.07.39:838][580]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(AirPods)
+[2026.04.06-07.07.39:838][580]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.06-07.07.39:838][580]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.06-07.07.39:838][580]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.06-07.07.39:839][580]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=99
+[2026.04.06-07.07.39:839][580]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=99
+[2026.04.06-07.07.39:841][580]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=99
+[2026.04.06-07.07.39:842][580]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=99
+[2026.04.06-07.07.39:842][580]LogInit: FAudioDevice initialized with ID 99.
+[2026.04.06-07.07.39:842][580]LogAudio: Display: Audio Device (ID: 99) registered with world 'MinecraftMap'.
+[2026.04.06-07.07.39:842][580]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 99
+[2026.04.06-07.07.39:846][580]LogLoad: Game class is 'BP_MincraftGameMode_C'
+[2026.04.06-07.07.39:847][580]LogWorld: Bringing World /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap up for play (max tick rate 60) at 2026.04.06-16.07.39
+[2026.04.06-07.07.39:847][580]LogWorld: Bringing up level for play took: 0.000837
+[2026.04.06-07.07.39:850][580]LogOnline: OSS: Created online subsystem instance for: :Context_154
+[2026.04.06-07.07.39:855][580]PIE: Server logged in
+[2026.04.06-07.07.39:858][580]PIE: Play in editor total start time 0.149 seconds.
+[2026.04.06-07.07.39:906][581]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.06-07.07.50:108][594]LogDerivedDataCache: C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.04.06-07.08.36:188][296]LogStreaming: Display: FlushAsyncLoading(594): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.06-07.09.11:760][235]Cmd: SELECT NONE
+[2026.04.06-07.09.15:833][312]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-07.09.15:833][312]LogWorld: BeginTearingDown for /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-07.09.15:834][312]LogWorld: UWorld::CleanupWorld for MinecraftMap, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-07.09.16:184][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-07.09.16:185][312]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap
+[2026.04.06-07.09.16:192][312]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.06-07.09.16:196][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-07.09.16:256][312]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.06-07.09.16:258][312]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 99
+[2026.04.06-07.09.16:258][312]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=99, StreamState=4
+[2026.04.06-07.09.16:262][312]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=99, StreamState=2
+[2026.04.06-07.09.16:268][312]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-07.09.17:726][312]LogUObjectHash: Compacting FUObjectHashTables data took  23.36ms
+[2026.04.06-07.09.17:929][313]LogPlayLevel: Display: Destroying online subsystem :Context_154
+[2026.04.06-07.09.53:312][321]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.06-07.09.53:317][321]LogContentBundle: [MinecraftMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.04.06-07.09.53:317][321]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' started...
+[2026.04.06-07.09.53:318][321]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' took 557 us (total: 13.299 ms)
+[2026.04.06-07.09.53:318][321]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.06-07.09.53:318][321]LogPlayLevel: Creating play world package: /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-07.09.53:320][321]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.04.06-07.09.53:320][321]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 264 us (total: 2.115 ms)
+[2026.04.06-07.09.53:320][321]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002458s)
+[2026.04.06-07.09.53:320][321]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/MinecraftMap.MinecraftMap to /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap (0.002494s)
+[2026.04.06-07.09.53:395][321]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2026.04.06-07.09.53:405][321]LogChaosDD: Creating Chaos Debug Draw Scene for world MinecraftMap
+[2026.04.06-07.09.53:407][321]LogWorldPartition: ULevel::OnLevelLoaded(MinecraftMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.06-07.09.53:407][321]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.06-07.09.53:407][321]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.06-07.09.53:407][321]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.06-07.09.53:407][321]LogWorldPartition: Display: WorldPartition initialize took 683 us (total: 42.866 ms)
+[2026.04.06-07.09.53:407][321]LogPlayLevel: PIE: World Init took: (0.002745s)
+[2026.04.06-07.09.53:408][321]LogAudio: Display: Creating Audio Device:                 Id: 100, Scope: Unique, Realtime: True
+[2026.04.06-07.09.53:408][321]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.06-07.09.53:408][321]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.06-07.09.53:408][321]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.06-07.09.53:408][321]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.06-07.09.53:408][321]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.06-07.09.53:408][321]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.06-07.09.53:408][321]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.06-07.09.53:408][321]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.06-07.09.53:408][321]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.06-07.09.53:408][321]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.06-07.09.53:408][321]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.06-07.09.53:411][321]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.06-07.09.53:419][321]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(AirPods)
+[2026.04.06-07.09.53:419][321]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.06-07.09.53:419][321]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.06-07.09.53:419][321]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.06-07.09.53:419][321]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=100
+[2026.04.06-07.09.53:419][321]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=100
+[2026.04.06-07.09.53:422][321]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=100
+[2026.04.06-07.09.53:422][321]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=100
+[2026.04.06-07.09.53:422][321]LogInit: FAudioDevice initialized with ID 100.
+[2026.04.06-07.09.53:422][321]LogAudio: Display: Audio Device (ID: 100) registered with world 'MinecraftMap'.
+[2026.04.06-07.09.53:423][321]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 100
+[2026.04.06-07.09.53:427][321]LogLoad: Game class is 'BP_MincraftGameMode_C'
+[2026.04.06-07.09.53:428][321]LogWorld: Bringing World /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap up for play (max tick rate 60) at 2026.04.06-16.09.53
+[2026.04.06-07.09.53:428][321]LogWorld: Bringing up level for play took: 0.000814
+[2026.04.06-07.09.53:430][321]LogOnline: OSS: Created online subsystem instance for: :Context_155
+[2026.04.06-07.09.53:435][321]PIE: Server logged in
+[2026.04.06-07.09.53:438][321]PIE: Play in editor total start time 0.121 seconds.
+[2026.04.06-07.09.53:486][322]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.06-07.10.10:824][339]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25456.843750
+[2026.04.06-07.10.14:646][342]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.06-07.10.14:646][342]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25459.359375, Update Interval: 343.186737
+[2026.04.06-07.10.36:480][392]LogBlueprintUserMessages: [BP_MinecraftSteve_C_0] do not cast
+[2026.04.06-07.10.50:745][824]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-07.10.50:745][824]LogWorld: BeginTearingDown for /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-07.10.50:746][824]LogWorld: UWorld::CleanupWorld for MinecraftMap, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-07.10.51:156][824]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-07.10.51:156][824]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap
+[2026.04.06-07.10.51:168][824]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.06-07.10.51:177][824]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-07.10.51:259][824]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-07.10.51:260][824]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 100
+[2026.04.06-07.10.51:260][824]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=100, StreamState=4
+[2026.04.06-07.10.51:263][824]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=100, StreamState=2
+[2026.04.06-07.10.52:891][824]LogUObjectHash: Compacting FUObjectHashTables data took  28.49ms
+[2026.04.06-07.10.52:976][825]LogPlayLevel: Display: Destroying online subsystem :Context_155
+[2026.04.06-07.11.05:528][400]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.Actor
+[2026.04.06-07.11.05:528][400]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.Actor
+[2026.04.06-07.11.05:528][400]LogActorFactory: Actor Factory spawned Class /Script/Engine.Actor as actor: Actor /Game/Blueprints/MinecraftMap.MinecraftMap:PersistentLevel.Actor_0
+[2026.04.06-07.11.05:528][400]LogActorFactory: Actor Factory spawned Class /Script/Engine.Actor as actor: Actor /Game/Blueprints/MinecraftMap.MinecraftMap:PersistentLevel.Actor_0
+[2026.04.06-07.11.06:286][440]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2026.04.06-07.11.06:379][440]LogEditorActor: Deleted 0 Actors (0.133 secs)
+[2026.04.06-07.11.12:687][732]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2026.04.06-07.11.12:687][732]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2026.04.06-07.11.12:687][732]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Blueprints/MinecraftMap.MinecraftMap:PersistentLevel.StaticMeshActor_1
+[2026.04.06-07.11.12:691][732]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Blueprints/MinecraftMap.MinecraftMap:PersistentLevel.StaticMeshActor_1
+[2026.04.06-07.11.13:464][769]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2026.04.06-07.11.13:558][769]LogEditorActor: Deleted 0 Actors (0.147 secs)
+[2026.04.06-07.11.13:570][769]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2026.04.06-07.11.13:570][769]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2026.04.06-07.11.13:577][769]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Blueprints/MinecraftMap.MinecraftMap:PersistentLevel.StaticMeshActor_UAID_5CB26D5239D210CF02_1752351903
+[2026.04.06-07.11.13:578][769]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Blueprints/MinecraftMap.MinecraftMap:PersistentLevel.StaticMeshActor_UAID_5CB26D5239D210CF02_1752351903
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: ================================================
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: Total job queries 773, among them cache hits 222 (28.72%), DDC hits 419 (54.20%), Duplicates 95 (12.29%)
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: Tracking 456 distinct input hashes that result in 325 distinct outputs (71.27%)
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: RAM used: 3.81 MiB of 1.60 GiB budget. Usage: 0.23%
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: Shaders Compiled: 37
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: Jobs assigned 37, completed 37 (100%)
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: Average time worker was idle: 1878.73 s
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: Time job spent in pending queue: average 0.13 s, longest 1.09 s
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: Job execution time: average 1.02 s, max 1.70 s
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: Job life time (pending + execution): average 1.15 s, max 1.90
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: Shader code size: total 415.168 KiB, numShaders 37, average 11.221 KiB, min 6.441 KiB, max 15.499 KiB
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 7.83 s
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.31%
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: Jobs were issued in 37 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: Average processing rate: 4.72 jobs/sec
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: Total thread time: 29.716 s
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: Total thread preprocess time: 12.861 s
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: Percentage time preprocessing: 43.28%
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: Effective parallelization: 3.79 (times faster than compiling all shaders on one thread). Compare with number of workers: 11 - 0.344888
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    6 times, average 1.31 sec, max 1.39 sec, min 1.16 sec)
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    6 times, average 1.05 sec, max 1.30 sec, min 0.63 sec)
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    4 times, average 1.02 sec, max 1.17 sec, min 0.75 sec)
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    6 times, average 0.65 sec, max 0.74 sec, min 0.52 sec)
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    8 times, average 0.62 sec, max 0.74 sec, min 0.35 sec)
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display:                                             FDebugViewModePS - 26.42% of total time (compiled    6 times, average 1.31 sec, max 1.39 sec, min 1.16 sec)
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 21.21% of total time (compiled    6 times, average 1.05 sec, max 1.30 sec, min 0.63 sec)
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 16.64% of total time (compiled    8 times, average 0.62 sec, max 0.74 sec, min 0.35 sec)
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 13.72% of total time (compiled    4 times, average 1.02 sec, max 1.17 sec, min 0.75 sec)
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 13.03% of total time (compiled    6 times, average 0.65 sec, max 0.74 sec, min 0.52 sec)
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: === Material stats ===
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: Materials Translated:    166
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: Material Total Translate Time: 0.15 s
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: Material Translation Only: 0.05 s (30%)
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: Material Cache Hits: 23 (14%)
+[2026.04.06-07.11.20:432][156]LogShaderCompilers: Display: ================================================
+[2026.04.06-07.11.30:777][678]Cmd: DUPLICATE
+[2026.04.06-07.11.30:777][678]Cmd: ACTOR DUPLICATE
+[2026.04.06-07.11.32:121][742]Cmd: DUPLICATE
+[2026.04.06-07.11.32:121][742]Cmd: ACTOR DUPLICATE
+[2026.04.06-07.11.33:363][802]Cmd: DUPLICATE
+[2026.04.06-07.11.33:363][802]Cmd: ACTOR DUPLICATE
+[2026.04.06-07.11.36:885][961]Cmd: DUPLICATE
+[2026.04.06-07.11.36:885][961]Cmd: ACTOR DUPLICATE
+[2026.04.06-07.11.38:375][ 32]Cmd: DUPLICATE
+[2026.04.06-07.11.38:375][ 32]Cmd: ACTOR DUPLICATE
+[2026.04.06-07.11.39:569][ 90]Cmd: DUPLICATE
+[2026.04.06-07.11.39:569][ 90]Cmd: ACTOR DUPLICATE
+[2026.04.06-07.12.23:220][991]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2026.04.06-07.12.23:870][  4]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-07.12.23:960][  4]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Block/ISM/BP_WorldManager] ([2] browsable assets)...
+[2026.04.06-07.12.23:993][  4]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Block/ISM/BP_WorldManager.BP_WorldManager]
+[2026.04.06-07.12.23:993][  4]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Block/ISM/BP_WorldManager]
+[2026.04.06-07.12.24:036][  4]LogSavePackage: Moving output files for package: /Game/Blueprints/Block/ISM/BP_WorldManager
+[2026.04.06-07.12.24:037][  4]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/BP_WorldManager32C0B2374B805F48065E1397E1830598.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/Block/ISM/BP_WorldManager.uasset'
+[2026.04.06-07.12.24:049][  4]LogFileHelpers: InternalPromptForCheckoutAndSave took 178.744 ms (total: 21.2 sec)
+[2026.04.06-07.12.24:133][  4]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-07.12.24:133][  4]LogContentValidation: Enabled validators:
+[2026.04.06-07.12.24:133][  4]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-07.12.24:133][  4]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-07.12.24:133][  4]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-07.12.24:133][  4]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-07.12.24:133][  4]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-07.12.24:133][  4]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-07.12.24:133][  4]AssetCheck: /Game/Blueprints/Block/ISM/BP_WorldManager Validating asset
+[2026.04.06-07.12.26:367][119]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.06-07.12.26:373][119]LogContentBundle: [MinecraftMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.04.06-07.12.26:373][119]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' started...
+[2026.04.06-07.12.26:387][119]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' took 13.469 ms (total: 26.769 ms)
+[2026.04.06-07.12.26:387][119]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.06-07.12.26:412][119]LogPlayLevel: Creating play world package: /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-07.12.26:417][119]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.04.06-07.12.26:418][119]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 397 us (total: 2.512 ms)
+[2026.04.06-07.12.26:419][119]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006169s)
+[2026.04.06-07.12.26:419][119]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/MinecraftMap.MinecraftMap to /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap (0.006228s)
+[2026.04.06-07.12.26:497][119]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2026.04.06-07.12.26:512][119]LogChaosDD: Creating Chaos Debug Draw Scene for world MinecraftMap
+[2026.04.06-07.12.26:516][119]LogWorldPartition: ULevel::OnLevelLoaded(MinecraftMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.06-07.12.26:516][119]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.06-07.12.26:516][119]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.06-07.12.26:516][119]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.06-07.12.26:517][119]LogWorldPartition: Display: WorldPartition initialize took 1.754 ms (total: 44.620 ms)
+[2026.04.06-07.12.26:518][119]LogPlayLevel: PIE: World Init took: (0.004378s)
+[2026.04.06-07.12.26:519][119]LogAudio: Display: Creating Audio Device:                 Id: 101, Scope: Unique, Realtime: True
+[2026.04.06-07.12.26:519][119]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.06-07.12.26:519][119]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.06-07.12.26:519][119]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.06-07.12.26:519][119]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.06-07.12.26:519][119]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.06-07.12.26:519][119]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.06-07.12.26:519][119]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.06-07.12.26:519][119]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.06-07.12.26:519][119]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.06-07.12.26:519][119]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.06-07.12.26:519][119]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.06-07.12.26:522][119]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.06-07.12.26:534][119]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(AirPods)
+[2026.04.06-07.12.26:535][119]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.06-07.12.26:535][119]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.06-07.12.26:535][119]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.06-07.12.26:535][119]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=101
+[2026.04.06-07.12.26:536][119]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=101
+[2026.04.06-07.12.26:539][119]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=101
+[2026.04.06-07.12.26:539][119]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=101
+[2026.04.06-07.12.26:539][119]LogInit: FAudioDevice initialized with ID 101.
+[2026.04.06-07.12.26:539][119]LogAudio: Display: Audio Device (ID: 101) registered with world 'MinecraftMap'.
+[2026.04.06-07.12.26:539][119]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 101
+[2026.04.06-07.12.26:545][119]LogLoad: Game class is 'BP_MincraftGameMode_C'
+[2026.04.06-07.12.26:546][119]LogWorld: Bringing World /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap up for play (max tick rate 60) at 2026.04.06-16.12.26
+[2026.04.06-07.12.26:546][119]LogWorld: Bringing up level for play took: 0.001113
+[2026.04.06-07.12.26:549][119]LogOnline: OSS: Created online subsystem instance for: :Context_156
+[2026.04.06-07.12.26:557][119]PIE: Server logged in
+[2026.04.06-07.12.26:560][119]PIE: Play in editor total start time 0.187 seconds.
+[2026.04.06-07.12.26:626][120]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.06-07.14.53:527][357]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-07.14.53:527][357]LogWorld: BeginTearingDown for /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-07.14.53:528][357]LogWorld: UWorld::CleanupWorld for MinecraftMap, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-07.14.53:530][357]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-07.14.53:530][357]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap
+[2026.04.06-07.14.53:534][357]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.06-07.14.53:540][357]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-07.14.53:618][357]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.06-07.14.53:620][357]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 101
+[2026.04.06-07.14.53:620][357]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=101, StreamState=4
+[2026.04.06-07.14.53:624][357]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=101, StreamState=2
+[2026.04.06-07.14.53:631][357]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-07.14.53:686][357]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2026.04.06-07.14.53:740][358]LogPlayLevel: Display: Destroying online subsystem :Context_156
+[2026.04.06-07.14.57:114][516]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.06-07.14.57:121][516]LogContentBundle: [MinecraftMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.04.06-07.14.57:121][516]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' started...
+[2026.04.06-07.14.57:123][516]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' took 1.239 ms (total: 28.008 ms)
+[2026.04.06-07.14.57:137][516]LogPlayLevel: [PlayLevel] Compiling BP_WorldManager before play...
+[2026.04.06-07.14.57:348][516]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2026.04.06-07.14.57:363][516]LogPlayLevel: PlayLevel: Blueprint regeneration took 240 ms (1 blueprints)
+[2026.04.06-07.14.57:363][516]LogPlayLevel: Creating play world package: /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-07.14.57:367][516]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.04.06-07.14.57:367][516]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 403 us (total: 2.916 ms)
+[2026.04.06-07.14.57:368][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005010s)
+[2026.04.06-07.14.57:368][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/MinecraftMap.MinecraftMap to /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap (0.005060s)
+[2026.04.06-07.14.57:434][516]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2026.04.06-07.14.57:437][516]LogChaosDD: Creating Chaos Debug Draw Scene for world MinecraftMap
+[2026.04.06-07.14.57:440][516]LogWorldPartition: ULevel::OnLevelLoaded(MinecraftMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.06-07.14.57:440][516]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.06-07.14.57:440][516]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.06-07.14.57:440][516]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.06-07.14.57:440][516]LogWorldPartition: Display: WorldPartition initialize took 1.065 ms (total: 45.686 ms)
+[2026.04.06-07.14.57:440][516]LogPlayLevel: PIE: World Init took: (0.003640s)
+[2026.04.06-07.14.57:442][516]LogAudio: Display: Creating Audio Device:                 Id: 102, Scope: Unique, Realtime: True
+[2026.04.06-07.14.57:442][516]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.06-07.14.57:442][516]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.06-07.14.57:442][516]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.06-07.14.57:442][516]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.06-07.14.57:442][516]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.06-07.14.57:442][516]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.06-07.14.57:442][516]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.06-07.14.57:442][516]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.06-07.14.57:442][516]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.06-07.14.57:442][516]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.06-07.14.57:442][516]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.06-07.14.57:445][516]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.06-07.14.57:459][516]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(AirPods)
+[2026.04.06-07.14.57:459][516]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.06-07.14.57:459][516]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.06-07.14.57:459][516]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.06-07.14.57:460][516]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=102
+[2026.04.06-07.14.57:460][516]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=102
+[2026.04.06-07.14.57:463][516]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=102
+[2026.04.06-07.14.57:463][516]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=102
+[2026.04.06-07.14.57:463][516]LogInit: FAudioDevice initialized with ID 102.
+[2026.04.06-07.14.57:463][516]LogAudio: Display: Audio Device (ID: 102) registered with world 'MinecraftMap'.
+[2026.04.06-07.14.57:464][516]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 102
+[2026.04.06-07.14.57:469][516]LogLoad: Game class is 'BP_MincraftGameMode_C'
+[2026.04.06-07.14.57:470][516]LogWorld: Bringing World /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap up for play (max tick rate 60) at 2026.04.06-16.14.57
+[2026.04.06-07.14.57:471][516]LogWorld: Bringing up level for play took: 0.000996
+[2026.04.06-07.14.57:473][516]LogOnline: OSS: Created online subsystem instance for: :Context_157
+[2026.04.06-07.14.57:480][516]PIE: Server logged in
+[2026.04.06-07.14.57:484][516]PIE: Play in editor total start time 0.363 seconds.
+[2026.04.06-07.14.57:527][517]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.06-07.15.34:038][552]LogBlueprintUserMessages: [BP_MinecraftSteve_C_0] do not cast
+[2026.04.06-07.15.44:233][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-07.15.44:233][860]LogWorld: BeginTearingDown for /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-07.15.44:234][860]LogWorld: UWorld::CleanupWorld for MinecraftMap, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-07.15.44:598][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-07.15.44:598][860]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap
+[2026.04.06-07.15.44:604][860]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.06-07.15.44:608][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-07.15.44:675][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-07.15.44:676][860]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 102
+[2026.04.06-07.15.44:676][860]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=102, StreamState=4
+[2026.04.06-07.15.44:679][860]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=102, StreamState=2
+[2026.04.06-07.15.46:220][860]LogUObjectHash: Compacting FUObjectHashTables data took  32.98ms
+[2026.04.06-07.15.46:259][861]LogPlayLevel: Display: Destroying online subsystem :Context_157
+[2026.04.06-07.16.05:952][953]Cmd: DELETE
+[2026.04.06-07.16.05:961][953]Cmd: ACTOR DELETE
+[2026.04.06-07.16.05:970][953]LogEditorActor: Deleted Actor: Brush
+[2026.04.06-07.16.06:064][953]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2026.04.06-07.16.06:100][953]LogEditorActor: Deleted 1 Actors (0.139 secs)
+[2026.04.06-07.16.40:819][674]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25846.962891
+[2026.04.06-07.16.41:114][690]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.06-07.16.41:114][690]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25847.236328, Update Interval: 339.260834
+[2026.04.06-07.16.59:283][554]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2026.04.06-07.16.59:764][561]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-07.16.59:848][561]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Block/ISM/BP_WorldManager] ([2] browsable assets)...
+[2026.04.06-07.16.59:883][561]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Block/ISM/BP_WorldManager.BP_WorldManager]
+[2026.04.06-07.16.59:883][561]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Block/ISM/BP_WorldManager]
+[2026.04.06-07.16.59:930][561]LogSavePackage: Moving output files for package: /Game/Blueprints/Block/ISM/BP_WorldManager
+[2026.04.06-07.16.59:930][561]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/BP_WorldManager054A84AB4E81EE61151CB2945E659F0C.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/Block/ISM/BP_WorldManager.uasset'
+[2026.04.06-07.16.59:946][561]LogFileHelpers: InternalPromptForCheckoutAndSave took 181.763 ms (total: 21.4 sec)
+[2026.04.06-07.17.00:036][561]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-07.17.00:036][561]LogContentValidation: Enabled validators:
+[2026.04.06-07.17.00:036][561]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-07.17.00:036][561]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-07.17.00:036][561]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-07.17.00:036][561]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-07.17.00:036][561]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-07.17.00:036][561]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-07.17.00:036][561]AssetCheck: /Game/Blueprints/Block/ISM/BP_WorldManager Validating asset
+[2026.04.06-07.17.18:152][442]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2026.04.06-07.17.18:516][444]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-07.17.18:601][444]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Block/ISM/BP_WorldManager] ([2] browsable assets)...
+[2026.04.06-07.17.18:608][444]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Block/ISM/BP_WorldManager.BP_WorldManager]
+[2026.04.06-07.17.18:608][444]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Block/ISM/BP_WorldManager]
+[2026.04.06-07.17.18:648][444]LogSavePackage: Moving output files for package: /Game/Blueprints/Block/ISM/BP_WorldManager
+[2026.04.06-07.17.18:648][444]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/BP_WorldManager648626D94D5D3B48856C7BA9300EB1CD.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/Block/ISM/BP_WorldManager.uasset'
+[2026.04.06-07.17.18:662][444]LogFileHelpers: InternalPromptForCheckoutAndSave took 145.117 ms (total: 21.5 sec)
+[2026.04.06-07.17.18:758][444]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-07.17.18:758][444]LogContentValidation: Enabled validators:
+[2026.04.06-07.17.18:758][444]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-07.17.18:758][444]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-07.17.18:758][444]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-07.17.18:758][444]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-07.17.18:758][444]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-07.17.18:758][444]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-07.17.18:758][444]AssetCheck: /Game/Blueprints/Block/ISM/BP_WorldManager Validating asset
+[2026.04.06-07.17.20:221][525]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.06-07.17.20:229][525]LogContentBundle: [MinecraftMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.04.06-07.17.20:229][525]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' started...
+[2026.04.06-07.17.20:230][525]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' took 1.158 ms (total: 29.167 ms)
+[2026.04.06-07.17.20:230][525]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.06-07.17.20:231][525]LogPlayLevel: Creating play world package: /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-07.17.20:233][525]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.04.06-07.17.20:234][525]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 404 us (total: 3.321 ms)
+[2026.04.06-07.17.20:234][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003974s)
+[2026.04.06-07.17.20:234][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/MinecraftMap.MinecraftMap to /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap (0.004022s)
+[2026.04.06-07.17.20:295][525]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2026.04.06-07.17.20:311][525]LogChaosDD: Creating Chaos Debug Draw Scene for world MinecraftMap
+[2026.04.06-07.17.20:314][525]LogWorldPartition: ULevel::OnLevelLoaded(MinecraftMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.06-07.17.20:314][525]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.06-07.17.20:314][525]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.06-07.17.20:314][525]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.06-07.17.20:315][525]LogWorldPartition: Display: WorldPartition initialize took 830 us (total: 46.516 ms)
+[2026.04.06-07.17.20:315][525]LogPlayLevel: PIE: World Init took: (0.003249s)
+[2026.04.06-07.17.20:316][525]LogAudio: Display: Creating Audio Device:                 Id: 103, Scope: Unique, Realtime: True
+[2026.04.06-07.17.20:316][525]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.06-07.17.20:316][525]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.06-07.17.20:316][525]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.06-07.17.20:316][525]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.06-07.17.20:316][525]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.06-07.17.20:316][525]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.06-07.17.20:316][525]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.06-07.17.20:316][525]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.06-07.17.20:316][525]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.06-07.17.20:316][525]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.06-07.17.20:316][525]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.06-07.17.20:318][525]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.06-07.17.20:329][525]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(AirPods)
+[2026.04.06-07.17.20:329][525]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.06-07.17.20:329][525]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.06-07.17.20:329][525]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.06-07.17.20:330][525]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=103
+[2026.04.06-07.17.20:330][525]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=103
+[2026.04.06-07.17.20:334][525]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=103
+[2026.04.06-07.17.20:334][525]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=103
+[2026.04.06-07.17.20:334][525]LogInit: FAudioDevice initialized with ID 103.
+[2026.04.06-07.17.20:334][525]LogAudio: Display: Audio Device (ID: 103) registered with world 'MinecraftMap'.
+[2026.04.06-07.17.20:334][525]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 103
+[2026.04.06-07.17.20:340][525]LogLoad: Game class is 'BP_MincraftGameMode_C'
+[2026.04.06-07.17.20:340][525]LogWorld: Bringing World /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap up for play (max tick rate 60) at 2026.04.06-16.17.20
+[2026.04.06-07.17.20:341][525]LogWorld: Bringing up level for play took: 0.000777
+[2026.04.06-07.17.20:344][525]LogOnline: OSS: Created online subsystem instance for: :Context_158
+[2026.04.06-07.17.20:352][525]PIE: Server logged in
+[2026.04.06-07.17.20:356][525]PIE: Play in editor total start time 0.127 seconds.
+[2026.04.06-07.17.20:414][526]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.06-07.17.52:052][648]LogToolMenus: Warning: Menu already registered : WorldPartition.ContextualMenu
+[2026.04.06-07.18.02:015][877]LogToolMenus: Warning: Menu already registered : WorldPartition.ContextualMenu
+[2026.04.06-07.18.12:483][ 87]LogToolMenus: Warning: Menu already registered : WorldPartition.ContextualMenu
+[2026.04.06-07.18.30:145][365]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-07.18.30:145][365]LogWorld: BeginTearingDown for /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-07.18.30:146][365]LogWorld: UWorld::CleanupWorld for MinecraftMap, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-07.18.30:313][365]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-07.18.30:313][365]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap
+[2026.04.06-07.18.30:317][365]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.06-07.18.30:324][365]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-07.18.30:422][365]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.06-07.18.30:425][365]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 103
+[2026.04.06-07.18.30:425][365]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=103, StreamState=4
+[2026.04.06-07.18.30:428][365]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=103, StreamState=2
+[2026.04.06-07.18.30:434][365]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-07.18.30:928][365]LogUObjectHash: Compacting FUObjectHashTables data took   6.52ms
+[2026.04.06-07.18.30:994][366]LogPlayLevel: Display: Destroying online subsystem :Context_158
+[2026.04.06-07.18.55:174][508]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2026.04.06-07.18.55:783][522]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-07.18.55:880][522]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Block/ISM/BP_WorldManager] ([2] browsable assets)...
+[2026.04.06-07.18.55:914][522]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Block/ISM/BP_WorldManager.BP_WorldManager]
+[2026.04.06-07.18.55:914][522]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Block/ISM/BP_WorldManager]
+[2026.04.06-07.18.55:957][522]LogSavePackage: Moving output files for package: /Game/Blueprints/Block/ISM/BP_WorldManager
+[2026.04.06-07.18.55:958][522]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/BP_WorldManagerC4706BAC44DFE2934727BAB08C594E87.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/Block/ISM/BP_WorldManager.uasset'
+[2026.04.06-07.18.55:968][522]LogFileHelpers: InternalPromptForCheckoutAndSave took 186.143 ms (total: 21.7 sec)
+[2026.04.06-07.18.56:052][522]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-07.18.56:052][522]LogContentValidation: Enabled validators:
+[2026.04.06-07.18.56:052][522]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-07.18.56:052][522]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-07.18.56:052][522]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-07.18.56:052][522]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-07.18.56:052][522]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-07.18.56:052][522]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-07.18.56:052][522]AssetCheck: /Game/Blueprints/Block/ISM/BP_WorldManager Validating asset
+[2026.04.06-07.19.00:936][746]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2026.04.06-07.19.01:662][765]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-07.19.01:763][765]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Block/ISM/BP_WorldManager] ([2] browsable assets)...
+[2026.04.06-07.19.01:797][765]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Block/ISM/BP_WorldManager.BP_WorldManager]
+[2026.04.06-07.19.01:797][765]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Block/ISM/BP_WorldManager]
+[2026.04.06-07.19.01:843][765]LogSavePackage: Moving output files for package: /Game/Blueprints/Block/ISM/BP_WorldManager
+[2026.04.06-07.19.01:843][765]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/BP_WorldManager716E620A4B7A42531B08DBADEAF84D80.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/Block/ISM/BP_WorldManager.uasset'
+[2026.04.06-07.19.01:853][765]LogFileHelpers: InternalPromptForCheckoutAndSave took 191.151 ms (total: 21.9 sec)
+[2026.04.06-07.19.01:937][765]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-07.19.01:937][765]LogContentValidation: Enabled validators:
+[2026.04.06-07.19.01:937][765]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-07.19.01:937][765]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-07.19.01:937][765]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-07.19.01:937][765]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-07.19.01:937][765]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-07.19.01:937][765]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-07.19.01:938][765]AssetCheck: /Game/Blueprints/Block/ISM/BP_WorldManager Validating asset
+[2026.04.06-07.19.03:155][833]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.06-07.19.03:161][833]LogContentBundle: [MinecraftMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.04.06-07.19.03:161][833]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' started...
+[2026.04.06-07.19.03:163][833]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' took 1.160 ms (total: 30.327 ms)
+[2026.04.06-07.19.03:164][833]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.06-07.19.03:164][833]LogPlayLevel: Creating play world package: /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-07.19.03:167][833]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.04.06-07.19.03:167][833]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 305 us (total: 3.626 ms)
+[2026.04.06-07.19.03:167][833]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003492s)
+[2026.04.06-07.19.03:167][833]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/MinecraftMap.MinecraftMap to /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap (0.003532s)
+[2026.04.06-07.19.03:229][833]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2026.04.06-07.19.03:246][833]LogChaosDD: Creating Chaos Debug Draw Scene for world MinecraftMap
+[2026.04.06-07.19.03:248][833]LogWorldPartition: ULevel::OnLevelLoaded(MinecraftMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.06-07.19.03:248][833]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.06-07.19.03:248][833]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.06-07.19.03:248][833]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.06-07.19.03:249][833]LogWorldPartition: Display: WorldPartition initialize took 1.048 ms (total: 47.564 ms)
+[2026.04.06-07.19.03:249][833]LogPlayLevel: PIE: World Init took: (0.003424s)
+[2026.04.06-07.19.03:250][833]LogAudio: Display: Creating Audio Device:                 Id: 104, Scope: Unique, Realtime: True
+[2026.04.06-07.19.03:250][833]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.06-07.19.03:250][833]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.06-07.19.03:250][833]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.06-07.19.03:250][833]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.06-07.19.03:250][833]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.06-07.19.03:250][833]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.06-07.19.03:250][833]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.06-07.19.03:250][833]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.06-07.19.03:250][833]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.06-07.19.03:250][833]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.06-07.19.03:250][833]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.06-07.19.03:254][833]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.06-07.19.03:264][833]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(AirPods)
+[2026.04.06-07.19.03:265][833]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.06-07.19.03:265][833]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.06-07.19.03:265][833]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.06-07.19.03:265][833]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=104
+[2026.04.06-07.19.03:265][833]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=104
+[2026.04.06-07.19.03:268][833]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=104
+[2026.04.06-07.19.03:268][833]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=104
+[2026.04.06-07.19.03:268][833]LogInit: FAudioDevice initialized with ID 104.
+[2026.04.06-07.19.03:268][833]LogAudio: Display: Audio Device (ID: 104) registered with world 'MinecraftMap'.
+[2026.04.06-07.19.03:268][833]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 104
+[2026.04.06-07.19.03:275][833]LogLoad: Game class is 'BP_MincraftGameMode_C'
+[2026.04.06-07.19.03:276][833]LogWorld: Bringing World /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap up for play (max tick rate 60) at 2026.04.06-16.19.03
+[2026.04.06-07.19.03:276][833]LogWorld: Bringing up level for play took: 0.000733
+[2026.04.06-07.19.03:278][833]LogOnline: OSS: Created online subsystem instance for: :Context_159
+[2026.04.06-07.19.03:285][833]PIE: Server logged in
+[2026.04.06-07.19.03:288][833]PIE: Play in editor total start time 0.127 seconds.
+[2026.04.06-07.19.03:340][834]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.06-07.19.37:231][457]LogToolMenus: Warning: Menu already registered : WorldPartition.ContextualMenu
+[2026.04.06-07.20.19:475][278]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-07.20.19:475][278]LogWorld: BeginTearingDown for /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-07.20.19:475][278]LogWorld: UWorld::CleanupWorld for MinecraftMap, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-07.20.19:613][278]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-07.20.19:614][278]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap
+[2026.04.06-07.20.19:618][278]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.06-07.20.19:623][278]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-07.20.19:671][278]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.06-07.20.19:672][278]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 104
+[2026.04.06-07.20.19:672][278]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=104, StreamState=4
+[2026.04.06-07.20.19:676][278]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=104, StreamState=2
+[2026.04.06-07.20.19:684][278]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-07.20.20:161][278]LogUObjectHash: Compacting FUObjectHashTables data took   7.66ms
+[2026.04.06-07.20.20:258][279]LogPlayLevel: Display: Destroying online subsystem :Context_159
+[2026.04.06-07.20.31:887][804]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.06-07.20.31:892][804]LogContentBundle: [MinecraftMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.04.06-07.20.31:892][804]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' started...
+[2026.04.06-07.20.31:893][804]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' took 1.012 ms (total: 31.340 ms)
+[2026.04.06-07.20.31:894][804]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.06-07.20.31:923][804]LogPlayLevel: Creating play world package: /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-07.20.31:925][804]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.04.06-07.20.31:926][804]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 289 us (total: 3.915 ms)
+[2026.04.06-07.20.31:926][804]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003311s)
+[2026.04.06-07.20.31:926][804]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/MinecraftMap.MinecraftMap to /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap (0.003362s)
+[2026.04.06-07.20.31:980][804]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2026.04.06-07.20.31:984][804]LogChaosDD: Creating Chaos Debug Draw Scene for world MinecraftMap
+[2026.04.06-07.20.31:986][804]LogWorldPartition: ULevel::OnLevelLoaded(MinecraftMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.06-07.20.31:986][804]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.06-07.20.31:986][804]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.06-07.20.31:986][804]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.06-07.20.31:987][804]LogWorldPartition: Display: WorldPartition initialize took 736 us (total: 48.301 ms)
+[2026.04.06-07.20.31:987][804]LogPlayLevel: PIE: World Init took: (0.002757s)
+[2026.04.06-07.20.31:987][804]LogAudio: Display: Creating Audio Device:                 Id: 105, Scope: Unique, Realtime: True
+[2026.04.06-07.20.31:988][804]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.06-07.20.31:988][804]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.06-07.20.31:988][804]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.06-07.20.31:988][804]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.06-07.20.31:988][804]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.06-07.20.31:988][804]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.06-07.20.31:988][804]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.06-07.20.31:988][804]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.06-07.20.31:988][804]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.06-07.20.31:988][804]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.06-07.20.31:988][804]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.06-07.20.31:990][804]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.06-07.20.31:999][804]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(AirPods)
+[2026.04.06-07.20.32:000][804]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.06-07.20.32:000][804]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.06-07.20.32:000][804]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.06-07.20.32:000][804]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=105
+[2026.04.06-07.20.32:000][804]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=105
+[2026.04.06-07.20.32:004][804]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=105
+[2026.04.06-07.20.32:004][804]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=105
+[2026.04.06-07.20.32:004][804]LogInit: FAudioDevice initialized with ID 105.
+[2026.04.06-07.20.32:004][804]LogAudio: Display: Audio Device (ID: 105) registered with world 'MinecraftMap'.
+[2026.04.06-07.20.32:004][804]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 105
+[2026.04.06-07.20.32:014][804]LogLoad: Game class is 'BP_MincraftGameMode_C'
+[2026.04.06-07.20.32:015][804]LogWorld: Bringing World /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap up for play (max tick rate 60) at 2026.04.06-16.20.32
+[2026.04.06-07.20.32:015][804]LogWorld: Bringing up level for play took: 0.000941
+[2026.04.06-07.20.32:018][804]LogOnline: OSS: Created online subsystem instance for: :Context_160
+[2026.04.06-07.20.32:026][804]PIE: Server logged in
+[2026.04.06-07.20.32:030][804]PIE: Play in editor total start time 0.136 seconds.
+[2026.04.06-07.20.32:080][805]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.06-07.21.44:532][542]LogToolMenus: Warning: Menu already registered : WorldPartition.ShowMenu
+[2026.04.06-07.21.48:509][774]LogToolMenus: Warning: Menu already registered : WorldPartition.ShowMenu
+[2026.04.06-07.21.55:210][165]LogToolMenus: Warning: Menu already registered : WorldPartition.ContextualMenu
+[2026.04.06-07.22.28:484][409]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-07.22.28:484][409]LogWorld: BeginTearingDown for /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-07.22.28:485][409]LogWorld: UWorld::CleanupWorld for MinecraftMap, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-07.22.28:572][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-07.22.28:572][409]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap
+[2026.04.06-07.22.28:576][409]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.06-07.22.28:580][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-07.22.28:636][409]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-07.22.28:637][409]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 105
+[2026.04.06-07.22.28:637][409]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=105, StreamState=4
+[2026.04.06-07.22.28:640][409]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=105, StreamState=2
+[2026.04.06-07.22.28:933][409]LogUObjectHash: Compacting FUObjectHashTables data took   6.05ms
+[2026.04.06-07.22.28:995][410]LogPlayLevel: Display: Destroying online subsystem :Context_160
+[2026.04.06-07.22.30:685][434]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.06-07.22.30:690][434]LogContentBundle: [MinecraftMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.04.06-07.22.30:690][434]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' started...
+[2026.04.06-07.22.30:690][434]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' took 850 us (total: 32.191 ms)
+[2026.04.06-07.22.30:690][434]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.06-07.22.30:690][434]LogPlayLevel: Creating play world package: /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-07.22.30:694][434]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.04.06-07.22.30:694][434]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 240 us (total: 4.156 ms)
+[2026.04.06-07.22.30:694][434]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002759s)
+[2026.04.06-07.22.30:694][434]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/MinecraftMap.MinecraftMap to /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap (0.002796s)
+[2026.04.06-07.22.30:773][434]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2026.04.06-07.22.30:778][434]LogChaosDD: Creating Chaos Debug Draw Scene for world MinecraftMap
+[2026.04.06-07.22.30:780][434]LogWorldPartition: ULevel::OnLevelLoaded(MinecraftMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.06-07.22.30:780][434]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.06-07.22.30:780][434]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.06-07.22.30:780][434]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.06-07.22.30:780][434]LogWorldPartition: Display: WorldPartition initialize took 713 us (total: 49.014 ms)
+[2026.04.06-07.22.30:780][434]LogPlayLevel: PIE: World Init took: (0.002888s)
+[2026.04.06-07.22.30:782][434]LogAudio: Display: Creating Audio Device:                 Id: 106, Scope: Unique, Realtime: True
+[2026.04.06-07.22.30:782][434]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.06-07.22.30:782][434]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.06-07.22.30:782][434]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.06-07.22.30:782][434]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.06-07.22.30:782][434]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.06-07.22.30:782][434]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.06-07.22.30:782][434]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.06-07.22.30:782][434]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.06-07.22.30:782][434]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.06-07.22.30:782][434]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.06-07.22.30:782][434]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.06-07.22.30:784][434]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.06-07.22.30:793][434]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(AirPods)
+[2026.04.06-07.22.30:793][434]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.06-07.22.30:793][434]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.06-07.22.30:793][434]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.06-07.22.30:793][434]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=106
+[2026.04.06-07.22.30:793][434]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=106
+[2026.04.06-07.22.30:796][434]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=106
+[2026.04.06-07.22.30:796][434]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=106
+[2026.04.06-07.22.30:796][434]LogInit: FAudioDevice initialized with ID 106.
+[2026.04.06-07.22.30:796][434]LogAudio: Display: Audio Device (ID: 106) registered with world 'MinecraftMap'.
+[2026.04.06-07.22.30:796][434]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 106
+[2026.04.06-07.22.30:801][434]LogLoad: Game class is 'BP_MincraftGameMode_C'
+[2026.04.06-07.22.30:802][434]LogWorld: Bringing World /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap up for play (max tick rate 60) at 2026.04.06-16.22.30
+[2026.04.06-07.22.30:802][434]LogWorld: Bringing up level for play took: 0.000734
+[2026.04.06-07.22.30:804][434]LogOnline: OSS: Created online subsystem instance for: :Context_161
+[2026.04.06-07.22.30:810][434]PIE: Server logged in
+[2026.04.06-07.22.30:814][434]PIE: Play in editor total start time 0.124 seconds.
+[2026.04.06-07.22.30:862][435]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.06-07.23.19:790][634]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 26246.082031
+[2026.04.06-07.23.20:790][637]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.06-07.23.20:790][637]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 26246.748047, Update Interval: 319.492188
+[2026.04.06-07.26.07:655][897]LogToolMenus: Warning: Menu already registered : WorldPartition.ContextualMenu
+[2026.04.06-07.26.31:544][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-07.26.31:544][281]LogWorld: BeginTearingDown for /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-07.26.31:546][281]LogWorld: UWorld::CleanupWorld for MinecraftMap, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-07.26.31:638][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-07.26.31:638][281]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap
+[2026.04.06-07.26.31:641][281]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.06-07.26.31:647][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-07.26.31:697][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-07.26.31:697][281]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 106
+[2026.04.06-07.26.31:697][281]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=106, StreamState=4
+[2026.04.06-07.26.31:700][281]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=106, StreamState=2
+[2026.04.06-07.26.31:982][281]LogUObjectHash: Compacting FUObjectHashTables data took   6.09ms
+[2026.04.06-07.26.32:043][282]LogPlayLevel: Display: Destroying online subsystem :Context_161
+[2026.04.06-07.29.04:475][129]LogToolMenus: Warning: Menu already registered : WorldPartition.ContextualMenu
+[2026.04.06-07.29.07:060][282]LogToolMenus: Warning: Menu already registered : WorldPartition.ContextualMenu
+[2026.04.06-07.29.09:013][397]LogToolMenus: Warning: Menu already registered : WorldPartition.ContextualMenu
+[2026.04.06-07.29.24:059][297]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 26610.576172
+[2026.04.06-07.29.24:325][313]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.06-07.29.24:326][313]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 26610.824219, Update Interval: 355.684082
+[2026.04.06-07.29.26:086][419]LogToolMenus: Warning: Menu already registered : WorldPartition.ContextualMenu
+[2026.04.06-07.29.56:543][198]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.06-07.29.56:548][198]LogContentBundle: [MinecraftMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.04.06-07.29.56:548][198]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' started...
+[2026.04.06-07.29.56:549][198]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' took 1.104 ms (total: 33.296 ms)
+[2026.04.06-07.29.56:549][198]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.06-07.29.56:550][198]LogPlayLevel: Creating play world package: /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-07.29.56:552][198]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.04.06-07.29.56:552][198]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 281 us (total: 4.438 ms)
+[2026.04.06-07.29.56:552][198]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002979s)
+[2026.04.06-07.29.56:552][198]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/MinecraftMap.MinecraftMap to /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap (0.003022s)
+[2026.04.06-07.29.56:630][198]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2026.04.06-07.29.56:640][198]LogChaosDD: Creating Chaos Debug Draw Scene for world MinecraftMap
+[2026.04.06-07.29.56:643][198]LogWorldPartition: ULevel::OnLevelLoaded(MinecraftMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.06-07.29.56:643][198]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.06-07.29.56:643][198]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.06-07.29.56:643][198]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.06-07.29.56:644][198]LogWorldPartition: Display: WorldPartition initialize took 639 us (total: 49.653 ms)
+[2026.04.06-07.29.56:644][198]LogPlayLevel: PIE: World Init took: (0.004158s)
+[2026.04.06-07.29.56:645][198]LogAudio: Display: Creating Audio Device:                 Id: 107, Scope: Unique, Realtime: True
+[2026.04.06-07.29.56:645][198]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.06-07.29.56:645][198]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.06-07.29.56:645][198]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.06-07.29.56:645][198]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.06-07.29.56:645][198]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.06-07.29.56:645][198]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.06-07.29.56:645][198]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.06-07.29.56:645][198]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.06-07.29.56:645][198]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.06-07.29.56:645][198]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.06-07.29.56:645][198]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.06-07.29.56:647][198]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.06-07.29.56:658][198]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(AirPods)
+[2026.04.06-07.29.56:658][198]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.06-07.29.56:658][198]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.06-07.29.56:658][198]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.06-07.29.56:659][198]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=107
+[2026.04.06-07.29.56:659][198]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=107
+[2026.04.06-07.29.56:662][198]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=107
+[2026.04.06-07.29.56:662][198]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=107
+[2026.04.06-07.29.56:662][198]LogInit: FAudioDevice initialized with ID 107.
+[2026.04.06-07.29.56:662][198]LogAudio: Display: Audio Device (ID: 107) registered with world 'MinecraftMap'.
+[2026.04.06-07.29.56:663][198]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 107
+[2026.04.06-07.29.56:668][198]LogLoad: Game class is 'BP_MincraftGameMode_C'
+[2026.04.06-07.29.56:669][198]LogWorld: Bringing World /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap up for play (max tick rate 60) at 2026.04.06-16.29.56
+[2026.04.06-07.29.56:669][198]LogWorld: Bringing up level for play took: 0.000642
+[2026.04.06-07.29.56:671][198]LogOnline: OSS: Created online subsystem instance for: :Context_162
+[2026.04.06-07.29.56:679][198]PIE: Server logged in
+[2026.04.06-07.29.56:682][198]PIE: Play in editor total start time 0.134 seconds.
+[2026.04.06-07.29.56:806][199]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.06-07.30.25:853][604]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-07.30.25:853][604]LogWorld: BeginTearingDown for /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-07.30.25:855][604]LogWorld: UWorld::CleanupWorld for MinecraftMap, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-07.30.25:947][604]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-07.30.25:947][604]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap
+[2026.04.06-07.30.25:951][604]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.06-07.30.25:958][604]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-07.30.26:036][604]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-07.30.26:037][604]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 107
+[2026.04.06-07.30.26:037][604]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=107, StreamState=4
+[2026.04.06-07.30.26:039][604]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=107, StreamState=2
+[2026.04.06-07.30.26:340][604]LogUObjectHash: Compacting FUObjectHashTables data took   5.50ms
+[2026.04.06-07.30.26:390][605]LogPlayLevel: Display: Destroying online subsystem :Context_162
+[2026.04.06-07.31.50:229][222]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2026.04.06-07.31.50:237][222]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/MinecraftMap_Auto1
+[2026.04.06-07.31.50:237][222]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/MinecraftMap_Auto128E597AC40402349C95E24905C343A52.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/Autosaves/Game/Blueprints/MinecraftMap_Auto1.umap'
+[2026.04.06-07.31.50:241][222]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Blueprints/MinecraftMap/9/H4/TCVVFE4L3AP5HPA5RNS0ZG_Auto1
+[2026.04.06-07.31.50:241][222]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/TCVVFE4L3AP5HPA5RNS0ZG_Auto18D4727D549DC26F642414CA41BBEB2A6.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/Autosaves/Game/__ExternalActors__/Blueprints/MinecraftMap/9/H4/TCVVFE4L3AP5HPA5RNS0ZG_Auto1.uasset'
+[2026.04.06-07.31.50:242][222]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Blueprints/MinecraftMap/5/K5/FVLORPPG7Q2RLY3VDLKN8I_Auto1
+[2026.04.06-07.31.50:242][222]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/FVLORPPG7Q2RLY3VDLKN8I_Auto16FD74FDB4D5CBB541F07DFB2C9894DC9.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/Autosaves/Game/__ExternalActors__/Blueprints/MinecraftMap/5/K5/FVLORPPG7Q2RLY3VDLKN8I_Auto1.uasset'
+[2026.04.06-07.31.50:244][222]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Blueprints/MinecraftMap/1/Z6/8QZ2SH7Y5KE4QQDUT6CG0P_Auto1
+[2026.04.06-07.31.50:244][222]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/8QZ2SH7Y5KE4QQDUT6CG0P_Auto16CDB081F4B81E12534DE4483BDF4C898.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/Autosaves/Game/__ExternalActors__/Blueprints/MinecraftMap/1/Z6/8QZ2SH7Y5KE4QQDUT6CG0P_Auto1.uasset'
+[2026.04.06-07.31.50:245][222]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Blueprints/MinecraftMap/1/QU/I6S42GX98VAC8K8EAE832U_Auto1
+[2026.04.06-07.31.50:245][222]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/I6S42GX98VAC8K8EAE832U_Auto17F467AD3400476A520943D8B762528CB.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/Autosaves/Game/__ExternalActors__/Blueprints/MinecraftMap/1/QU/I6S42GX98VAC8K8EAE832U_Auto1.uasset'
+[2026.04.06-07.31.50:247][222]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Blueprints/MinecraftMap/C/A0/PWBDHHDAFVSQBG0EROS87S_Auto1
+[2026.04.06-07.31.50:247][222]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/PWBDHHDAFVSQBG0EROS87S_Auto1CDA18CA3432A99F78861BFB0B99ABC3F.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/Autosaves/Game/__ExternalActors__/Blueprints/MinecraftMap/C/A0/PWBDHHDAFVSQBG0EROS87S_Auto1.uasset'
+[2026.04.06-07.31.50:248][222]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Blueprints/MinecraftMap/A/LX/O2W9ZNUJ54E0ML8EMFRHRB_Auto1
+[2026.04.06-07.31.50:248][222]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/O2W9ZNUJ54E0ML8EMFRHRB_Auto1D779972D421545876CD678B1CA7FA23C.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/Autosaves/Game/__ExternalActors__/Blueprints/MinecraftMap/A/LX/O2W9ZNUJ54E0ML8EMFRHRB_Auto1.uasset'
+[2026.04.06-07.31.50:249][222]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Blueprints/MinecraftMap/1/C2/3F6FLPUERMOYTBE17JAZ4D_Auto1
+[2026.04.06-07.31.50:249][222]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/3F6FLPUERMOYTBE17JAZ4D_Auto1F9AE04E444A6726A95156C8A0D852650.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/Autosaves/Game/__ExternalActors__/Blueprints/MinecraftMap/1/C2/3F6FLPUERMOYTBE17JAZ4D_Auto1.uasset'
+[2026.04.06-07.31.50:250][222]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Blueprints/MinecraftMap' took 0.119
+[2026.04.06-07.31.50:250][222]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.119
+[2026.04.06-07.33.24:743][679]Cmd: DELETE
+[2026.04.06-07.33.24:743][679]Cmd: ACTOR DELETE
+[2026.04.06-07.33.24:745][679]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.04.06-07.33.24:834][679]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2026.04.06-07.33.24:839][679]LogEditorActor: Deleted 1 Actors (0.096 secs)
+[2026.04.06-07.33.25:094][686]Cmd: DELETE
+[2026.04.06-07.33.25:094][686]Cmd: ACTOR DELETE
+[2026.04.06-07.33.25:095][686]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.04.06-07.33.25:202][686]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2026.04.06-07.33.25:208][686]LogEditorActor: Deleted 1 Actors (0.114 secs)
+[2026.04.06-07.33.25:485][696]Cmd: DELETE
+[2026.04.06-07.33.25:485][696]Cmd: ACTOR DELETE
+[2026.04.06-07.33.25:487][696]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.04.06-07.33.25:578][696]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2026.04.06-07.33.25:584][696]LogEditorActor: Deleted 1 Actors (0.100 secs)
+[2026.04.06-07.33.25:912][708]Cmd: DELETE
+[2026.04.06-07.33.25:912][708]Cmd: ACTOR DELETE
+[2026.04.06-07.33.25:914][708]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.04.06-07.33.25:971][708]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2026.04.06-07.33.25:977][708]LogEditorActor: Deleted 1 Actors (0.065 secs)
+[2026.04.06-07.33.26:619][739]Cmd: DELETE
+[2026.04.06-07.33.26:619][739]Cmd: ACTOR DELETE
+[2026.04.06-07.33.26:621][739]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.04.06-07.33.26:708][739]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2026.04.06-07.33.26:714][739]LogEditorActor: Deleted 1 Actors (0.095 secs)
+[2026.04.06-07.33.27:041][751]Cmd: DELETE
+[2026.04.06-07.33.27:041][751]Cmd: ACTOR DELETE
+[2026.04.06-07.33.27:042][751]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.04.06-07.33.27:104][751]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2026.04.06-07.33.27:110][751]LogEditorActor: Deleted 1 Actors (0.069 secs)
+[2026.04.06-07.33.27:383][759]Cmd: DELETE
+[2026.04.06-07.33.27:383][759]Cmd: ACTOR DELETE
+[2026.04.06-07.33.27:385][759]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.04.06-07.33.27:458][759]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.04.06-07.33.27:465][759]LogEditorActor: Deleted 1 Actors (0.081 secs)
+[2026.04.06-07.33.28:138][791]Cmd: DELETE
+[2026.04.06-07.33.28:138][791]Cmd: ACTOR DELETE
+[2026.04.06-07.33.28:140][791]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.04.06-07.33.28:208][791]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2026.04.06-07.33.28:214][791]LogEditorActor: Deleted 1 Actors (0.077 secs)
+[2026.04.06-07.33.29:288][853]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-07.33.29:430][853]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2026.04.06-07.33.29:491][853]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2026.04.06-07.33.29:539][853]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2026.04.06-07.33.29:606][853]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2026.04.06-07.33.29:614][853]LogSavePackage: Moving output files for package: /Game/Blueprints/MinecraftMap
+[2026.04.06-07.33.29:615][853]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/MinecraftMap5F09B4C64B3069D826388B88F496CBD2.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/MinecraftMap.umap'
+[2026.04.06-07.33.29:620][853]LogFileHelpers: Saving map 'MinecraftMap' took 0.078
+[2026.04.06-07.33.29:638][853]LogFileHelpers: InternalPromptForCheckoutAndSave took 350.553 ms (total: 22.3 sec)
+[2026.04.06-07.33.29:722][853]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-07.33.29:722][853]LogContentValidation: Enabled validators:
+[2026.04.06-07.33.29:722][853]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-07.33.29:722][853]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-07.33.29:722][853]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-07.33.29:722][853]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-07.33.29:722][853]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-07.33.29:722][853]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-07.33.29:722][853]AssetCheck: /Game/Blueprints/MinecraftMap Validating asset
+[2026.04.06-07.33.29:749][853]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/user/Documents/Unreal Projects/Minecraft/Saved/SourceControl/UncontrolledChangelists.json
+[2026.04.06-07.36.15:715][460]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 27022.349609
+[2026.04.06-07.36.16:716][463]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.06-07.36.16:716][463]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 27023.015625, Update Interval: 333.139435
+[2026.04.06-07.42.35:779][600]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 27402.462891
+[2026.04.06-07.42.36:782][603]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.06-07.42.36:782][603]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 27403.130859, Update Interval: 321.125519
+[2026.04.06-07.48.28:504][658]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 27755.226562
+[2026.04.06-07.48.29:505][662]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.06-07.48.29:505][662]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 27755.892578, Update Interval: 335.252533
+[2026.04.06-07.49.24:237][852]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.06-07.49.24:242][852]LogContentBundle: [MinecraftMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.04.06-07.49.24:242][852]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' started...
+[2026.04.06-07.49.24:242][852]LogWorldPartition: Display: GenerateStreaming for 'MinecraftMap' took 717 us (total: 34.013 ms)
+[2026.04.06-07.49.24:242][852]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.06-07.49.24:243][852]LogPlayLevel: Creating play world package: /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-07.49.24:245][852]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.04.06-07.49.24:246][852]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 210 us (total: 4.649 ms)
+[2026.04.06-07.49.24:246][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002098s)
+[2026.04.06-07.49.24:246][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/MinecraftMap.MinecraftMap to /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap (0.002152s)
+[2026.04.06-07.49.24:335][852]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2026.04.06-07.49.24:340][852]LogChaosDD: Creating Chaos Debug Draw Scene for world MinecraftMap
+[2026.04.06-07.49.24:343][852]LogWorldPartition: ULevel::OnLevelLoaded(MinecraftMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.06-07.49.24:343][852]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.06-07.49.24:343][852]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.06-07.49.24:343][852]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.06-07.49.24:343][852]LogWorldPartition: Display: WorldPartition initialize took 519 us (total: 50.172 ms)
+[2026.04.06-07.49.24:343][852]LogPlayLevel: PIE: World Init took: (0.002626s)
+[2026.04.06-07.49.24:344][852]LogAudio: Display: Creating Audio Device:                 Id: 108, Scope: Unique, Realtime: True
+[2026.04.06-07.49.24:344][852]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.06-07.49.24:344][852]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.06-07.49.24:344][852]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.06-07.49.24:344][852]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.06-07.49.24:344][852]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.06-07.49.24:344][852]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.06-07.49.24:344][852]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.06-07.49.24:344][852]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.06-07.49.24:344][852]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.06-07.49.24:344][852]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.06-07.49.24:344][852]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.06-07.49.24:348][852]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.06-07.49.24:357][852]LogAudioMixer: Display: Using Audio Hardware Device 헤드폰(AirPods)
+[2026.04.06-07.49.24:357][852]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.06-07.49.24:357][852]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.06-07.49.24:357][852]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.06-07.49.24:358][852]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=108
+[2026.04.06-07.49.24:358][852]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=108
+[2026.04.06-07.49.24:360][852]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=108
+[2026.04.06-07.49.24:360][852]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=108
+[2026.04.06-07.49.24:360][852]LogInit: FAudioDevice initialized with ID 108.
+[2026.04.06-07.49.24:360][852]LogAudio: Display: Audio Device (ID: 108) registered with world 'MinecraftMap'.
+[2026.04.06-07.49.24:360][852]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 108
+[2026.04.06-07.49.24:366][852]LogLoad: Game class is 'BP_MincraftGameMode_C'
+[2026.04.06-07.49.24:367][852]LogWorld: Bringing World /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap up for play (max tick rate 60) at 2026.04.06-16.49.24
+[2026.04.06-07.49.24:367][852]LogWorld: Bringing up level for play took: 0.000649
+[2026.04.06-07.49.24:369][852]LogOnline: OSS: Created online subsystem instance for: :Context_163
+[2026.04.06-07.49.24:375][852]PIE: Server logged in
+[2026.04.06-07.49.24:378][852]PIE: Play in editor total start time 0.136 seconds.
+[2026.04.06-07.49.24:425][853]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.06-07.49.51:453][803]LogSlate: Took 0.000688 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.04.06-07.50.56:855][873]LogBlueprintUserMessages: [BP_MinecraftSteve_C_0] do not cast
+[2026.04.06-07.51.22:205][512]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-07.51.22:205][512]LogWorld: BeginTearingDown for /Game/Blueprints/UEDPIE_0_MinecraftMap
+[2026.04.06-07.51.22:205][512]LogWorld: UWorld::CleanupWorld for MinecraftMap, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-07.51.22:297][512]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-07.51.22:297][512]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Blueprints/UEDPIE_0_MinecraftMap.MinecraftMap
+[2026.04.06-07.51.22:306][512]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.06-07.51.22:310][512]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-07.51.22:402][512]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.06-07.51.22:402][512]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 108
+[2026.04.06-07.51.22:402][512]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=108, StreamState=4
+[2026.04.06-07.51.22:405][512]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=108, StreamState=2
+[2026.04.06-07.51.22:411][512]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-07.51.22:682][512]LogUObjectHash: Compacting FUObjectHashTables data took   7.95ms
+[2026.04.06-07.51.22:755][513]LogPlayLevel: Display: Destroying online subsystem :Context_163
