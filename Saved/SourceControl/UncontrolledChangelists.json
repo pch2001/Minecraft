@@ -10,17 +10,18 @@
 				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/Block/Textures/Box_Frotn.uasset",
 				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/Block/Textures/Box_Side.uasset",
 				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/Block/Materials/MI_SurfaceBox.uasset",
-				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/MiniBlock/Texture/box-removebg-preview.uasset",
 				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/MiniBlock/Texture/Box.uasset",
-				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/MiniBlock/BP_MiniBlock1.uasset",
 				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/MiniBlock/MiniBlockData/DT_MiniBlock.uasset",
-				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/MiniBlock/BP_MiniWood1.uasset",
 				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/Block/BlockData/DT_BlockCSV.uasset",
 				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/MiniBlock/BP_MiniBox.uasset",
 				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/Block/ISM/BP_WorldManager.uasset",
 				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/WBP_Box.uasset",
 				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/BP_MinecraftSteve.uasset",
-				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/WBP_BoxInventory.uasset"
+				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/WBP_BoxInventory.uasset",
+				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/UI/WBP_Loading.uasset",
+				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/MiniBlock/Texture/box-removebg-preview.uasset",
+				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/MiniBlock/BP_MiniBlock1.uasset",
+				"C:/Users/user/Documents/Unreal Projects/Minecraft/Content/Blueprints/MiniBlock/BP_MiniWood1.uasset"
 			]
 		}
 	]
